@@ -47,6 +47,7 @@ swww-daemon & disown
 swww img ~/Pictures/wallpaper.jpg
 ```
 
-* 7 it is recommended to reboot 
+> [!NOTE]
+> recommended to reboot
 
 
