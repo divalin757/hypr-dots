@@ -50,7 +50,7 @@ swww img ~/Pictures/wallpaper.jpg
 > [!NOTE]
 > recommended to reboot
 
-#keybinds
+# keybinds
 
 ### Main Key (`$mainMod = SUPER`)
 | Keybind | Action | Command / Description |
