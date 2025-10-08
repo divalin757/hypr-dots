@@ -115,3 +115,14 @@ swww img ~/Pictures/wallpaper.jpg
 | XF86AudioPlay / Pause | Toggle play/pause | `playerctl play-pause` |
 
 # Screenshots
+
+<details>
+  <summary>file selection</summary>
+  <img src="imgs/Screenshot%20from%202025-09-23%2020-58-24.png" alt="Screenshot 1" width="600"/>
+</details>
+
+<details>
+  <summary>Actions</summary>
+  <img src="imgs/Screenshot%20from%202025-09-23%2020-58-28.png" alt="Screenshot 2" width="700"/>
+</details>
+
