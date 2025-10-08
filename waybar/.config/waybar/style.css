@@ -1,0 +1,135 @@
+* {
+    font-family: JetBrainsMono Nerd Font Propo;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+/* Container bar */
+#workspaces {
+  background-color: #1E1E2E;
+  border-radius: 14px;
+  padding: 6px 10px;
+  border: 1px solid #2C2C3C;
+  margin: 6px;
+}
+
+/* Inactive buttons (shorter, wider) */
+#workspaces button {
+  background-color: #292E42;
+  color: transparent;
+  min-width: 20px;
+  min-height: 12px;
+  border-radius: 9999px;
+  font-size: 0;
+  padding: 0 8px;
+  transition: all 0.1s ease-in-out;
+}
+
+#workspaces button:not(:last-child) {
+  margin-right: 6px;
+}
+
+/* Active button (a bit wider) */
+#workspaces button.active {
+  background-color: #7BA0F5;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  min-width: 42px;
+  padding: 1px 10px;
+  border-radius: 7px;
+}
+
+
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#mpd {
+    padding: 0 10px;
+    margin: 8 0px;
+    border-radius: 12px;
+}
+
+
+#clock {
+    background-color: #1A1B27;
+    color: #7BA0F5;
+}
+#custom-power {
+    background-color: #1A1B27;
+    color: #7BA0F5;
+    padding: 0 10px;
+    margin: 8 2px;
+    border-radius: 99px;
+
+}
+#custom-pkgs {
+    background-color: #1A1B27;
+    color: #ff9e64;  /* Example color */
+    border-radius: 12px;
+    padding: 0 10px;
+    margin: 8 0px;
+}
+#custom-arch {
+    background-color: #1A1B27;
+    color: #c0caf5;
+    padding: 0 10px;
+    border-radius: 99px;
+    margin: 8 2px;
+}
+#battery {
+    background-color: #1A1B27;
+    color: #9ece6a;
+}
+
+#battery.charging, #battery.plugged {
+    color: #9ece6a;
+    background-color: #1A1B27;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: #1A1B27;
+    color: #f7768e;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+label:focus {
+    background-color: #000000;
+}
+#network {
+    background-color: #1A1B27;
+    color: #bb9af7;
+}
+
+#network.disconnected {
+    background-color: #1A1B27;
+    color: #f7768e;
+}
+
+#pulseaudio {
+    background-color: #1A1B27;
+    color: #e0af68;
+}
+
+#pulseaudio.muted {
+    background-color: #1A1B27;
+    color: #f7768e;
+}
+
