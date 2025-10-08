@@ -113,3 +113,5 @@ swww img ~/Pictures/wallpaper.jpg
 | XF86AudioNext | Next track | `playerctl next` |
 | XF86AudioPrev | Previous track | `playerctl previous` |
 | XF86AudioPlay / Pause | Toggle play/pause | `playerctl play-pause` |
+
+# Screenshots
