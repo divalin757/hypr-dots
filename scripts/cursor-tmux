@@ -1,0 +1,29 @@
+#!/bin/bash
+PANE_HEIGHT=24  
+PANE_WIDTH=35
+
+# Split a new pane horizontally
+tmux split-window -h
+
+# Get the newly created pane's ID
+PANE_ID=$(tmux display-message -p '#{pane_id}')
+
+# Resize the pane
+tmux resize-pane -t "$PANE_ID" -x "$PANE_WIDTH" -y "$PANE_HEIGHT"
+
+# Get the default-shell of tmux (what shell new panes use)
+DEFAULT_SHELL=$(tmux show-option -gqv default-shell)
+
+# Check if the default shell is nu
+if [[ "$DEFAULT_SHELL" == *"nu"* ]]; then
+    # nu shell syntax
+    tmux send-keys -t "$PANE_ID" 'cd gemini; clear; gemini' Enter
+else
+    # bash/zsh shell syntax
+    tmux send-keys -t "$PANE_ID" "cd gemini && clear && gemini" C-m
+fi
+
+# Focus the new pane
+tmux select-pane -t "$PANE_ID"
+
+

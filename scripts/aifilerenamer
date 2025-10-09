@@ -1,0 +1,100 @@
+#!/bin/bash
+
+
+
+# Custom function to rename files/directories interactively
+rename_item() {
+  local fullpath="$1"
+  local base=$(basename "$fullpath")
+  local dir=$(dirname "$fullpath")
+
+  echo "Selected for renaming: $base"
+
+  read -rp "New name: " newname
+  if [[ -n "$newname" && "$newname" != "$base" ]]; then
+    mv -v "$fullpath" "$dir/$newname"
+  else
+    echo "Rename cancelled or no change."
+  fi
+}
+
+navigate_and_rename() {
+  local path="${1:-.}"
+  while true; do
+    # List items with full path but show only basename in fzf UI
+    selection=$(find "$path" -mindepth 1 -maxdepth 1 -print0 |
+      xargs -0 -I{} basename "{}" |
+      fzf --height=40% --prompt="[$path] > " --expect=enter,alt-c --exit-0)
+
+    key=$(head -n1 <<<"$selection")
+    chosen=$(tail -n +2 <<<"$selection")
+
+    # If nothing selected, exit
+    [[ -z "$key" || -z "$chosen" ]] && break
+
+    fullpath="$path/$chosen"
+
+    if [[ "$key" == "alt-c" && -d "$fullpath" ]]; then
+      # Enter directory
+      path="$fullpath"
+    elif [[ "$key" == "enter" ]]; then
+      # Rename selected file or directory
+      rename_item "$fullpath"
+      break
+    else
+      break
+    fi
+  done
+}
+
+# Run starting at current directory
+navigate_and_rename "$(pwd)"
+#!/bin/bash
+
+# Custom function to rename files/directories interactively
+rename_item() {
+  local fullpath="$1"
+  local base=$(basename "$fullpath")
+  local dir=$(dirname "$fullpath")
+
+  echo "Selected for renaming: $base"
+
+  read -rp "New name: " newname
+  if [[ -n "$newname" && "$newname" != "$base" ]]; then
+    mv -v "$fullpath" "$dir/$newname"
+  else
+    echo "Rename cancelled or no change."
+  fi
+}
+
+navigate_and_rename() {
+  local path="${1:-.}"
+  while true; do
+    # List items with full path but show only basename in fzf UI
+    selection=$(find "$path" -mindepth 1 -maxdepth 1 -print0 |
+      xargs -0 -I{} basename "{}" |
+      fzf --height=40% --prompt="[$path] > " --expect=enter,alt-c --exit-0)
+
+    key=$(head -n1 <<<"$selection")
+    chosen=$(tail -n +2 <<<"$selection")
+
+    # If nothing selected, exit
+    [[ -z "$key" || -z "$chosen" ]] && break
+
+    fullpath="$path/$chosen"
+
+    if [[ "$key" == "alt-c" && -d "$fullpath" ]]; then
+      # Enter directory
+      path="$fullpath"
+    elif [[ "$key" == "enter" ]]; then
+      # Rename selected file or directory
+      rename_item "$fullpath"
+      break
+    else
+      break
+    fi
+  done
+}
+
+# Run starting at current directory
+navigate_and_rename "$(pwd)"

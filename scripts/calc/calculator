@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+print(r''' 
+####################################################
+#  _____       _            _       _             ##
+# /  __ \     | |          | |     | |            ##
+# | /  \/ __ _| | ___ _   _| | __ _| |_ ___  _ __ ##
+# | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__|##
+# | \__/\ (_| | | (__| |_| | | (_| | || (_) | |   ##
+#  \____/\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   ##
+####################################################
+''')
+
+
+number1 = float(input("type your first number "))
+number2 = float(input("type your second number "))
+opreation = input("type your desired opereation / * + - ")
+
+if opreation == "-":
+    opm = (number1 - number2)
+    print(opm)
+elif opreation == "+":
+    opp = (number1 + number2)
+    print(opp)
+elif opreation == "*":
+    op = (number1 * number2)
+    print(op)
+elif opreation == " ":
+    print("no opreation spesified")
+elif opreation == "":
+    print("no opreation spesified")
+elif opreation == "/":
+    if number2 == 0:
+        print("division by 0 is undefined")
+    else:
+        opd = number1 / number2
+        print(opd)
