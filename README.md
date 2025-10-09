@@ -12,6 +12,7 @@ for arch based
 
 ```bash
 sudo pacman -S ghostty stow hyprland hyprlock hypridle hyprshot hyprsunset rofi yazi swaync swayosd waybar zsh neovim swww
+yay -S wlogout
 ```
 
 i dont know for other distros lol :)
