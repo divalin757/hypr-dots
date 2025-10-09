@@ -11,7 +11,7 @@ it is recommended to do this from the tty
 for arch based
 
 ```bash
-sudo pacman -S ghostty stow hyprland hyprlock hypridle hyprshot hyprsunset rofi yazi swaync swayosd waybar zsh neovim swww
+sudo pacman -S ghostty stow hyprland hyprlock hypridle hyprshot hyprsunset rofi yazi swaync swayosd waybar zsh neovim swww starship fastfetch 
 yay -S wlogout
 ```
 
