@@ -15,7 +15,6 @@ sudo pacman -S ghostty stow hyprland hyprlock hypridle hyprshot hyprsunset rofi 
 yay -S wlogout
 ```
 
-i dont know for other distros lol :)
 
 * 2 clone the repo 
 ```bash
