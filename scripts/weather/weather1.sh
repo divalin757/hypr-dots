@@ -5,7 +5,7 @@ if [[ -z "$CITY" || -z "$COUNTRY" ]]; then
   exit 1
 fi
 
-weather_info=$(curl  -s --fail --compressed -m 2.4 "https://en.wttr.in/$CITY?format=%c+%t" 2> /dev/null)
+weather_info=$(curl  -s --fail "https://en.wttr.in/$CITY?format=%c+%t" 2> /dev/null)
 
 
 if [[ $? -ne 0 || -z "$weather_info" ]]; then
