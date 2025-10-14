@@ -1,5 +1,5 @@
-CITY="Jerusalem"
-COUNTRY="israel"
+CITY="your city"
+COUNTRY="your country"
 if [[ -z "$CITY" || -z "$COUNTRY" ]]; then
   echo "Error: Unable to determine your location"
   exit 1
