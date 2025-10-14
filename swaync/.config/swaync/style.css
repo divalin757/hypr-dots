@@ -1,15 +1,15 @@
-@define-color cc-bg #1E1E2E;
-@define-color noti-border-color #cfc9c2;
-@define-color noti-bg #1E1E2E;
-@define-color noti-bg-darker #2b2b39;
-@define-color noti-bg-hover #1E1E2E;
-@define-color noti-bg-focus #1E1E2E;
-@define-color noti-close-bg #cfc9c2;
-@define-color noti-close-bg-hover #cfc9c2;
-@define-color text-color #cfc9c2;
+@define-color cc-bg #222436;
+@define-color noti-border-color #c0caf5;
+@define-color noti-bg #222436;
+@define-color noti-bg-darker #1E1E2E;
+@define-color noti-bg-hover #222436;
+@define-color noti-bg-focus #222436;
+@define-color noti-close-bg #c0caf5;
+@define-color noti-close-bg-hover #c0caf5;
+@define-color text-color #c0caf5;
 @define-color text-color-disabled #565f89;
 @define-color bg-selected #7aa2f7;
-@define-color border-green #CBA6F7;
+@define-color border-green #7aa2f7;
 @define-color red-base #f7768e;
 @define-color red-hover #f7768e;
 @define-color green-base #c0caf5;
@@ -17,7 +17,7 @@
 
 * {
   font-family: "JetBrainsMono NFM SemiBold", monospace;
-  border-radius: 0;
+  border-radius: 10;
 }
 
 .control-center .notification-row:focus,
@@ -32,7 +32,10 @@
   padding: 0;
 }
 
-.notification,
+.notification, {
+  border-radius: 6;
+
+}
 .notification-content,
 .notification-action,
 .notification-default-action,
@@ -180,7 +183,7 @@
 
 .widget-dnd>switch {
   background: @blue-base;
-  border-radius: 0;
+  border-radius: 10;
 }
 
 .widget-dnd>switch:checked {
@@ -238,7 +241,7 @@
 .widget-mpris>box>button,
 .widget-mpris-player,
 .widget-mpris-album-art {
-  border-radius: 0;
+  border-radius: 10;
   box-shadow: none;
   padding: 5px 10px;
   margin: 10px 0 0 0;
