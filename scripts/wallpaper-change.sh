@@ -9,7 +9,7 @@ pgrep -x swww-daemon >/dev/null || swww init
 WALLPAPERS=($(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' -o -iname '*.webp' \) -exec basename {} \;))
 
 # Use walker to select from basenames
-SELECTED_BASENAME=$(printf '%s\n' "${WALLPAPERS[@]}" | walker --dmenu --placeholder "select a wallpapper")
+SELECTED_BASENAME=$(printf '%s\n' "${WALLPAPERS[@]}" | rofi -dmenu --placeholder "select a wallpapper")
 
 # If a wallpaper was selected
 if [[ -n "$SELECTED_BASENAME" ]]; then

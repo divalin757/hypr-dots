@@ -2,7 +2,7 @@
 
 OPTIONS="Logout\nReboot\nShutdown\nSuspend\nLock"
 
-chosen=$(echo -e "$OPTIONS" | walker --dmenu --width 200 --height 250 --placeholder "Logout:")
+chosen=$(echo -e "$OPTIONS" | rofi -dmenu --width 200 --height 250 --placeholder "Logout:")
 
 case "$chosen" in
 "Logout")

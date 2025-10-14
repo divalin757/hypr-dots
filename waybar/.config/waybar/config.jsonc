@@ -7,7 +7,8 @@
     "modules-left": [
         "custom/arch",
         "clock",
-        "custom/pkgs"
+        "custom/pkgs",
+		"custom/media"
     ],
     "modules-center": [
         "hyprland/workspaces"
@@ -16,7 +17,8 @@
         "pulseaudio",
         "network",
         "battery",
-        "custom/power"
+//        "custom/power",
+        "custom/notification"
     ],
     "hyprland/workspaces": {
       "persistent-workspaces": {
@@ -41,8 +43,35 @@
        "format": "",
        "on-click": "rofi -show drun",
     },
+
+
+	"custom/notification": {
+      "tooltip": false,
+      "format": "{icon}",
+      "format-icons": {
+        "notification": "<span foreground='red'><sup></sup></span>",
+        "none": "",
+        "dnd-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-none": "",
+        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "inhibited-none": "",
+        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
     "custom/pkgs": {
-       "format": " 85",
+       "format": " {}",
+			 "interval": "once",
+			 "exec": "checkupdates --nocolor |wc -l",
+			 "on-click": "ghostty -e yay -Syu",
+			 "signal": "8",
+			 "tooltip-format": "{} updates available"
      },
    "clock": {
     "interval": 1,
