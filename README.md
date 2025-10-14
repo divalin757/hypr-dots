@@ -47,6 +47,11 @@ swww-daemon & disown
 swww img ~/Pictures/wallpaper.jpg
 ```
 
+* 7 move the script Direction
+```bash
+mv scripts ~/scripts
+```
+
 > [!NOTE]
 > recommended to reboot
 
