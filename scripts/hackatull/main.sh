@@ -22,7 +22,7 @@ banner="
 
 
 while true; do
-  echo -e "                             $GREEN$banner$RESET"
+#  echo -e "                             $GREEN$banner$RESET"
   echo -e "                                           1 $BLUE$var1$RESET"
   echo -e "                                           2 $BLUE$var2$RESET"
   echo -e "                                           3 $BLUE$var3$RESET"
