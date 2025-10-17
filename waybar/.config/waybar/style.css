@@ -42,6 +42,7 @@ window#waybar {
   padding: 1px 10px;
   border-radius: 7px;
 }
+
 #workspaces button:hover {
   background-color: #C099FF;
   color: black;

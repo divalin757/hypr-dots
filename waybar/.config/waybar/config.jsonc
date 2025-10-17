@@ -17,7 +17,7 @@
         "pulseaudio",
         "network",
         "battery",
-//        "custom/power",
+        "custom/power",
         "custom/notification"
     ],
     "hyprland/workspaces": {
@@ -68,7 +68,7 @@
     "custom/pkgs": {
        "format": " {}",
 			 "interval": "once",
-			 "exec": "checkupdates --nocolor |wc -l",
+			 "exec": "checkupdates |wc -l",
 			 "on-click": "ghostty -e yay -Syu",
 			 "signal": "8",
 			 "tooltip-format": "{} updates available"
@@ -117,6 +117,6 @@
     "custom/power": {
         "format" : "⏻",
 		"tooltip": false,
-        "on-click": "wlogout"
+        "on-click": "wlogout -b 6"
     }
 }
