@@ -1,0 +1,540 @@
+l
+ll
+rp
+r
+ls
+x
+arp-scan --help
+arp-scan --help |gum choose
+ls|gum choose
+exa |gum
+exa |gum choose
+exa --icons |gum choose
+exa --icons=always |gum choose
+exa --icons=always --color |gum choose
+exa --icons=always --color=always |gum choose
+exa --icons=always --color=always |gum --fuzzy choose
+exa --icons=always --color=always |gum --title lolchoose
+exa --icons=always --color=always |gum choose --title lol
+exa --icons=always --color=always |gum choose --title "lol"
+exa --icons=always --color=always |gum choose || echo lol
+zsh
+exit
+ls
+chmod file-explorer_0.1.0_amd64.deb
+chmod +x file-explorer_0.1.0_amd64.deb
+./file-explorer_0.1.0_amd64.deb
+cd ..
+ls
+./build-universal.sh
+nvim build-universal.sh
+bash
+nvim env.nu
+rm env.nu
+ls
+mv env.bk env.nu
+ls
+jj$env.config.keybindings = [<\n>  {<\n>    name: "escape_insert_with_j"<\n>    modifier: none<\n>    keycode: char_j<\n>    mode: vi_insert<\n>    event: { send: escape }<\n>  }<\n>]<\n>
+$env.config.keybindings = [<\n>  {<\n>    name: "escape_insert_with_j"<\n>    modifier: none<\n>    keycode: char_j<\n>    mode: vi_insert<\n>    event: { send: escape }<\n>  }<\n>]<\n>
+nu
+nu
+nu
+ls
+ps -aux |sort-by cpu
+ps |sort-by cpu
+l
+cl
+c
+nvim 
+nvim
+ls
+arp-scan --localnet |gum choose
+arp-scan --localnet 
+nmtyu
+nmtui
+ping google.com
+ls
+cd scripts/
+ls
+nvim batnot.sh
+ls
+cd fetch/
+ls
+./catpfetch.sh
+./cfetch
+./richfetch
+nvim richfetch
+ls
+bash
+exit
+ps
+ps |sort-by cpu
+ls
+ls |wl-clipboard
+ls |wl-copy
+mkdir lol ; cd lol ; touch llo ; echo hi > llo ; cd ; rm -rf lol
+ls
+sl .confog
+ls .config
+tt
+cd scripts/
+sl
+ls
+nvim batnot.sh
+acpi | awk -F'[,%]' '{print $2}'
+nvim batnot.sh
+ls
+./pipes.sh
+./pipes.sh -h
+./pipes.sh -p 12
+./pipes.sh -p 12 -h
+./pipes.sh -p 12 -t 9 -f 100 -s 15 -R -K
+sl
+ls
+spf
+ps |sort-by cpu
+sl
+l
+yay -Ss code
+s codium
+i vscodium-bin
+yay -Yc 
+yay -Sc
+zsh
+exit
+wlogout \<\n>  --buttons-per-row 5 \<\n>  --row-spacing 0 \<\n>  --column-spacing 30 \<\n>  --margin 50<\n>
+wlogout <\n>  --buttons-per-row 5 <\n>  --row-spacing 0 \  --column-spacing 30 \<\n>  --margin 50
+cd
+ls
+wlogout <\n>  --buttons-per-row 5 <\n>  --row-spacing 0 <\n>  --margin 50
+ss
+ls
+ll
+lll
+ll
+ls
+nmtyu
+ls
+exa
+exa --icons=alwyas
+exa --icons=always
+exa --icons=always --oneline
+nvim config.nu
+oil
+ls
+cd
+cd ghostty
+ls
+nvim config
+ghostty +list-themes
+nvim config
+ls
+cd
+ls
+ps
+ls
+nvim gamemode.sh
+./gamemode.sh
+ls
+nvim gamemode.sh
+./gamemode.sh
+ls
+nvim gamemode.sh
+ls
+./gamemode.sh
+nvim gamemode.sh
+./gamemode.sh
+nvim gamemode.sh
+./gamemode.sh
+nvim gamemode.sh
+./gamemode.sh
+ls
+nvim gamemode.sh
+ls
+./gamemode.sh
+cd tmux
+ls
+nvim tmux.conf
+tmux source-file tmux.conf
+;s
+cd
+cd scripts/hypr
+ls
+nvim gamemode.sh
+waybar
+ls
+swww img lofi-coffee-shop.1920x1080.mp4
+ffmpeg -i lofi-coffee-shop.1920x1080.mp4 lol.gif
+rm lofi-coffee-shop.1920x1080.mp4
+ls
+nvim gamemode.sh
+ls
+open rmhyprpm
+open rmhyprpm 
+pwd
+pwd |lines
+pwd | lines
+pwd | coullms
+pwd | collums
+pwd | columns
+pwd
+cd .config/nu
+ls
+nvim config.nu
+ls
+exa
+exa |lines
+exa --icons=always --oneline
+exa --icons=always --oneline |lines
+exa --icons=always --oneline --color=always |lines
+ls
+exa --icons=always --oneline --color=always |lines
+exa --icons=always --oneline --color=always 
+nvim config.nu
+ls
+nvim config.nu
+ls
+nvim config.nu
+alias ls = exa --icons=always --color=always --oneline | lines<\n>
+lz
+ls
+exa --icons=always --oneline --color=always |lines
+nvim config.nu
+ls
+nvim config.nu
+ls
+nvim config.nu
+exa --icons=always --oneline --color=always |lines<\n>
+alias ls =    exa --icons=always --oneline --color=always |lines<\n>
+ls
+cd
+ls
+cd
+nu
+nu
+nu
+nu
+ls
+exa
+exa |lines
+ls
+exa -lh 
+exa -lh |lines
+exa -lh |columns
+ls
+ls --help
+ls subdir
+.
+./
+cat
+cat .config
+exa -lh |columns
+exa -lh | lines
+lines
+lines --help
+columns 
+columns --help
+exa | col 
+col
+col --help
+exa | config use-colors 
+config use-colors 
+exa | column 
+exa | columns
+exa --icons=always --color=always | lines
+exa --icons=always --color=always -l | lines
+exa --icons=always --color=always -la | lines
+exa --icons=always --color=always -lah | lines
+ls
+exa --icons=always --color=always -lah --no-permissions | lines
+ls
+exa --icons=always --color=always -lah --no-permissions --no-user| lines
+exa --icons=always --color=always -lah --no-permissions --no-user --type | lines
+exa --help
+ls
+eza --json | from json | select name type size modified<\n>
+eza -l --no-user --no-permissions --no-filesize --no-time --time-style=relative<\n>
+eza -l --no-user --no-permissions --no-filesize --no-time --time-style=relative |lines
+exa --icons=always --color=always -lah --no-permissions | lines
+alias ls = {<\n>  eza --json --all --group-directories-first |<\n>  from json |<\n>  sort-by name |<\n>  select name type size modified |<\n>  update size {|f| if $f.type == 'dir' { '4.0 kB' } else { $f.size | into filesize | into string }} |<\n>  update modified {|f|<\n>    let ts = $f.modified;<\n>    if $ts == null { '-' }<\n>    else {<\n>      let rel = (date now | date since $ts);<\n>      if ($rel == 'now') { 'now' } else { $rel }<\n>    }<\n>  }<\n>}<\n>
+ls
+l
+sls
+ls --help
+ls
+ps
+pwd
+open rmhyprpm 
+open history.txt
+open config.nu
+curl https://fake-coffe-api
+curl https://fake-coffe-api/
+ls
+curl https://fake-coffee-api.vercel.app/api
+curl https://fake-coffee-api.vercel.app/api |jq 
+curl https://fake-coffee-api.vercel.app/api/1
+fetch("https://fake-coffee-api.vercel.app/api")<\n>  .then((res) => res.json())<\n>  .then((data) => console.log(data));
+ls
+fetch
+http get
+http get https://fake-coffee-api.vercel.app/api
+http get https://fake-coffee-api.vercel.app/api/1 |kq
+http get https://fake-coffee-api.vercel.app/api/1 
+alias ls = {<\n>  eza --json --all --group-directories-first |<\n>  from json |<\n>  each {|f|<\n>    mut icon = "" # default file<\n>    if $f.type == "dir" { $icon = "" }<\n>    if $f.name ends-with ".nu" { $icon = "" }<\n>    if $f.name ends-with ".txt" { $icon = "" }<\n>    if $f.name ends-with ".md" { $icon = "" }<\n>    { name: $"($icon) ($f.name)", type: $f.type, size: ($f.size | into filesize), modified: ($f.modified | date humanize) }<\n>  } |<\n>  sort-by name<\n>}<\n>
+ls
+http get https://fake-coffee-api.vercel.app/api/1 
+http
+http  https://fake-coffee-api.vercel.app/api/1 
+http https://fake-coffee-api.vercel.app/api/1
+catma
+catman
+catman config.nu
+ls
+catman --help
+def ls [] {<\n>  eza --json --all --group-directories-first |<\n>  from json |<\n>  each {|f|<\n>    mut icon = "" # default file<\n>    if $f.type == "dir" { $icon = "" }<\n>    if $f.name ends-with ".nu" { $icon = "" }<\n>    if $f.name ends-with ".txt" { $icon = "" }<\n>    if $f.name ends-with ".md" { $icon = "" }<\n>    { name: $"($icon) ($f.name)", type: $f.type, size: ($f.size | into filesize), modified: ($f.modified | date humanize) }<\n>  } |<\n>  sort-by name<\n>}<\n>
+ls
+nu |ls
+ls
+open rem 
+ps
+http https://fake-coffee-api.vercel.app/api/1
+curl -i https://fake-coffee-api.vercel.app/api/1<\n>
+http https://fake-coffee-api.vercel.app/api/random<\n>
+http duckduckgo.com
+http duckduckgo.com |lines
+http duckduckgo.com |json
+http duckduckgo.com |to json
+http duckduckgo.com |to json |jq
+ls
+=http https://jsonplaceholder.typicode.com/posts/1
+http https://jsonplaceholder.typicode.com/posts/1
+http https://jsonplaceholder.typicode.com/posts/1 |select userId
+http https://dummyjson.com/products/1 | from json | select id title price category<\n>
+http https://dummyjson.com/products/1  select id title price category
+http https://dummyjson.com/products/1  
+curl -i 'https://dummyjson.com/products/1 '
+curl https://dummyjson.com/products/1
+ls
+curl https://dummyjson.com/products/1 |jq
+curl https://dummyjson.com/products/1 |jq | columns 
+curl https://dummyjson.com/products/1 |jq | lines
+curl https://dummyjson.com/products/1 |jq | lines |from json 
+curl https://dummyjson.com/products/1 from json
+curl https://dummyjson.com/products/1 | from json
+ls
+curl https://dummyjson.com/products/1 | from toml 
+cd .config/nush
+ls
+nvim config.nu
+ls
+cd .config/nushls
+cd nush
+ls
+l
+historu
+history 
+history |fz
+history |fzf | to json
+history | to json
+history | to json | jq
+ls
+histogram 
+history session 
+atuin
+atuib history 
+atuin history
+atuin history start
+nvim .config
+ls
+cd .config/nushls
+cd .config/nush
+ls
+l
+bind
+keybindings 
+atuin searcj
+atuin search
+ls
+atuin history start
+atuin history 
+atuin history search
+atuin history 
+atuin history list
+atuin history 
+atuin 
+atuin search
+atuin search --help
+atuin search -i
+nvim co
+nvim config.nu
+nu
+nvim .config/nushell/config.nu
+_atuin_search_cmd
+nvim .config/nushell/config.nu
+ls
+.config
+pro
+projects
+cd
+projects
+ls
+cd projects/
+l
+pwd
+l
+waybar
+nvim
+ls
+cd hypr
+ls
+nvim vars.conf
+ls
+nvim .config/nushell/config.nu
+exit
+ls
+history
+carapace
+sudo pacman -S carapace
+yay -S carapace
+yay -Yc
+yay -Sc
+rm -rf go
+sl
+ls
+fF
+fzf
+rm -rf .config/go
+ls
+carapace
+carapace --run
+cd .config/nush
+ls
+nvim config.nu
+ls
+nvim config.nu
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir $"($nu.cache-dir)"<\n>carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"<\n><\n># ${UserConfigDir}/nushell/config.nu<\n>source $"($nu.cache-dir)/carapace.nu"<\n><\n>
+ls
+nvim config.nu
+fzf
+nu
+nu
+la
+carapace --run
+carapace --help
+carapace nushell
+;s
+nvim .config/nushell/config.nu
+ls
+carapace nushell
+carapace nushell --help
+carapace --help
+$env.USERconfigdir
+ls
+ecit
+exit
+ls
+cd .config/nush
+ls
+nvim config.nu
+carapace init nu
+carapace init nushell
+carapace init nushell | save hello
+ls
+nvim hello
+rm hello
+ls
+nvim env.nu
+fzf
+nvim env.nu
+nu
+carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"
+carapace _carapace nushell
+nvim config.nu
+$env.nu.cachedir
+nvim config.nu
+$nu.cache-dir
+cd .cache
+ls
+cd nushell
+ls
+cd
+mkdir .cache/nushell
+cd .config/nush
+cd .config/nushell
+ls
+nvim config.nu
+carapace _carapace nushell | save --force $"~/.cache/nushell/carapace.nu"<\n>
+ls
+nvim config.nu
+ls
+fzf
+cd
+ls
+fzf
+ghostty +show-face 
+ghostty +boo
+ls
+nvim
+cd /usr
+ls
+sudo mkdir xsessions
+cd xsessions/
+ls
+nvim gnome-xorg.desktop
+sudo nvim gnome-xorg.desktop
+reboot
+s
+ls
+ls |select number
+cd
+ls
+ls |select #
+ls
+l
+sl
+slls
+ls
+sl
+open rem 
+open rem | select
+open rem | select 0
+open rem | select 1
+open rem | select 2
+open rem | select 
+ls | select 1
+ls | select name
+ls | select size
+ls | select modified
+ls
+exit
+nu rmhyprpm 
+help nu
+nu --help
+nu -ksp
+nu --lsp
+exit
+fd
+fd |sort size
+fd |sort by-size
+fd |du
+du
+cd .local
+ls
+du
+cd share
+l
+du
+du |sort
+du |sort --help
+du |sort -i
+du |sort --reverse
+cd ballo
+ls
+cd baloo/
+la
+ls
+l
+cd .config/nushell
+ls
+nvim config.nu 
+ls
