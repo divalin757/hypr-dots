@@ -538,3 +538,492 @@ cd .config/nushell
 ls
 nvim config.nu 
 ls
+cd
+ls
+git clone https://github.com/divalin757/hypr-dots
+cd hypr-dots/
+ls
+du
+cd nushell/
+ls
+ls -a
+cd .config/
+ls
+cd nushell/
+ls
+nvim config.nu 
+ls
+nvim config.nu 
+ls
+l
+nvim config.nu 
+cd
+rm -rf hypr-dots/
+ls
+l
+la
+ls
+cd .config
+ls
+nvim 
+ls
+cd fh
+cd gh
+ls
+nvim config 
+nu
+nu
+ls
+du
+cd io.github.ungoogled_software.ungoogled_chromium/
+ls
+cd ..
+ls
+exit
+ls
+nvim .bashrc 
+exit
+ls
+l
+ls
+nvim
+ls
+pwd
+open rem
+open rem | select 0
+open rem | select 1
+open rem | select 2
+open rem | select 3
+open rem | select 4
+open rem | select 5
+nvim rem 
+open rem | select 5
+open rem
+cd nvim
+sl
+cd lua/
+ls
+cd plugins/
+ls
+cd ..
+ls
+cd config/
+ls
+nvim options.lua 
+ls
+s
+__zoxide_z 
+ls
+nvim rmhyprpm 
+cd -
+l
+nvim options.lua 
+ls
+cd
+ps
+v
+ls
+atuin search -i
+ls
+la
+sl
+ls
+ls -
+-ls -a
+-ls -la
+-ls -h
+-ls --help
+\\ls --help
+\ls --help
+ls --help
+ls -a ~ | where type == dir
+ls -a ~ | where type == dir | du
+ls -a ~ | where type == dir 
+ls -a ~ | where type == fil
+ls -a ~ | where type == file
+ls -a / | where type == file
+ls -a / | where type == dor
+ls -a / | where type == dir
+ls -a /root | where type == dir
+cd /root
+ls
+cd /root
+sudo cd /root
+cd /
+ls
+cd root
+ls root
+nvim root
+sudo nvim root
+sudo cd root
+cd -s root
+cd -s /root
+sudo -s 
+l
+cd
+ls
+cd .config\\
+cd .config
+ls
+cd nushell/4
+cd nushell/
+ls
+nvim config.nu 
+nvim env.nu 
+ls
+cd
+ls
+cd .config
+ls
+cd
+cd rus
+ls
+cd
+cd nushell/
+cd ls
+cd ..
+ls
+pwd
+cd
+cd nushe
+ls
+nvim env.nu 
+ls
+nvim config.nu 
+ls
+nvim env.nu 
+ls
+nvim env.nu 
+ls
+nvim config.nu 
+nvim env.nu 
+cd go
+ls
+cd
+ls
+find go
+fd go
+fd .go
+fzf -q .go
+c
+cd
+cd projects/
+ls
+mkdir go
+cd go
+lsl
+ls
+mkdir hello
+;
+l
+ls
+cd hello/
+ls
+go 
+sudo pacman -S go
+ls
+zsh
+nu
+nu
+nu
+nu
+ls
+cd .config/nushell
+ls
+nvim env.nu 
+ls
+nvim config.nu 
+cd
+fzf
+rm .local/share/nushell/vendor/autoload/starship.nu
+ls
+cd
+cd\
+cd
+ghostty +list-themes 
+cd gho
+ls
+nvim config 
+ls
+nvim
+nvim config 
+cd -
+ls
+cd nvim
+ls
+cd lua/pl
+ls
+nvim colorscheme
+nvim colorscheme.lua
+nvim colorscheme.lua 
+rm colorscheme.lua
+cd ..
+ls
+cd config/
+ls
+rm colorscheme.lua
+nvim options.lua 
+cd ..
+nvim config/options.lua 
+nvim plugins/colorshceme.lua
+rm colorscheme.lua
+ls
+cd plugins/
+ls
+rm colorscheme.lua
+ls
+rm colorscheme.lua
+ls
+rm colorshceme.lua.lua
+rm colorshceme.lua
+ls
+nvim colors.lua
+exit\
+exit
+nvim
+exit
+cd hypr
+ls
+nvim hyprland.conf 
+nvim hyprlock.conf 
+nvim vars.conf
+ls
+nvim
+ls
+exit
+tmux
+ls
+cd hypr
+ls
+nvim hyprland.conf 
+nvim hyprlock.conf 
+ls
+l
+ll
+ls -a
+ls -al
+ls -ala
+ls -alatr
+ls -alat
+ls -aat
+^ls 
+^ls -latr
+^ls -latr --color
+^ls -latr --color --icons
+/usr/bin/ls --help
+cd
+cd nvim
+cd gho
+ls
+nvim config 
+ls
+nvim config 
+nvim .
+cd gho
+ls
+cd gho
+ls
+nvim config 
+lsl
+l
+la |select 
+la |select name
+la |select size
+la |select 
+la |select type
+la |select 1
+la |select modified
+la
+nvim rmhyprpm 
+cd go
+l
+sl
+nvim
+tmux display-clock
+cava
+tmux 
+sudo pacman -S cava
+echo -ne "\a"
+cava
+ls
+lsl
+l
+wezterm
+s wezterm
+s iterm
+etc
+.config
+cd
+nvim .zoxide.nu 
+zi
+cdi
+z
+cd 
+cd .c
+ls
+sl
+l
+alias cd = __zoxide_z
+alias cd = __zoxide_zi
+cd
+ls
+cd GitHub/
+;s
+ls
+cd
+cdi
+rfy
+rf
+if
+if "projects" == "projects"
+if "projects" == "projects"; then
+notify-send "helo<\n>world<\n>hi<\n>"
+cd nvim
+cd swayn
+ls
+bluetui
+kilall swaync && swaync & disown
+kilall swaync ; swaync & disown
+killall swaync ; swaync & disown
+killall swaync ; swaync 
+notify-send "helo<\n>world<\n>hi<\n>"
+notify-send "hel"
+nvim style.css 
+nvim config.jsonc 
+pkill swaync
+pkill -90 swaync
+swaync &
+notify-send "hel"
+cd .config/swaync
+ls
+nvim config.jsonc 
+nvim style.css 
+nvim config.jsonc 
+pkill -90 swaync
+pkill -9 swaync
+notify-send "hel"
+swaync
+nvim config.jsonc 
+playerctl 
+playerctl  metadata 
+playerctl  metadata |rg firefox
+playerctl  metadata |rg firefox xesam
+playerctl  metadata |rg firefox xesa
+playerctl  metadata |rg firefox s
+playerctl  metadata |rg firefox:
+playerctl  metadata |rg xesam:title
+playerctl  metadata |rg xesam:title |awk {print 1}
+playerctl  metadata |rg xesam:title |awk {print $1}
+playerctl  metadata |rg xesam:title |awk {print $2}
+playerctl  metadata |rg xesam:title |awk {print $3}
+playerctl  metadata |rg xesam:title |awk {print $3456789}
+playerctl  metadata |rg xesam:title |awk {print $345678}
+playerctl  metadata |rg xesam:title |awk {print $}
+playerctl  metadata |rg xesam:title |awk {print }
+fzf
+nvim scripts/media/mediaplayer.sh 
+playerctl  metadata xesam:title 
+ls
+playerctl  play-pause 
+playerctl  play
+playerctl  play-pause 
+playerctl  loop 
+playerctl  next 
+cd dotfiles/
+ls
+pwd
+cd
+cd .config
+rm -rf waybar
+mkdir waybar
+ls
+cd waybar
+ls
+nvim config.jsonc 
+nvim style.css 
+ls
+nvim config.jsonc 
+nvim modules.json
+waybar
+ls
+nvim style.css 
+nvim config.jsonc 
+nvim style.css 
+nvim config.jsonc 
+nvim style.css 
+cd
+rm -rf .config/waybar/
+cd dotfiles/
+stow waybar
+duf
+du
+d
+df
+df -h 
+df -h lol
+lolcat
+cat
+git clone https://github.com/mylinuxforwork/wallpaper.git
+cat rem
+bat cache --clear
+cat rem
+sl
+ls
+spf
+rofi
+ls .config/backgrounds/ | rofi -dmenu
+l
+rm -rf wallpaper/
+Lls
+ls
+cd .config
+ls
+cd waybar
+ls
+nvim tokyonight.toml
+nvim tokyonight.css
+nvim style.css 
+waybar
+ls
+s
+nvim style.css 
+waybar
+ls
+l
+nvim style.css 
+nvim tokyonight.css 
+nvim style.css 
+nvim tokyonight.css 
+nvim style.css 
+mv tokyonight.css catppuccin.css
+ls
+nvim tokyonight.css 
+cp catppuccin.css tokyonight.css
+nvim tokyonight.css 
+nvim catppuccin.css 
+nvim tokyonight.css 
+nvim style.css 
+ls
+nvim catppuccin.css 
+nvim style.css 
+nvim tokyonight.css 
+ls
+nvim catppuccin.css 
+cat tokyonight.css 
+^cat tokyonight.css 
+nvim catppuccin.css 
+nvim style.css 
+timedatectl 
+nvim catppuccin.css 
+ls
+mkdir themes
+ls
+mv catppuccin.css tokyonight.css themes/
+nvim style.css 
+nvim tokyonight.css 
+nvim themes/tokyonight.css 
+nvim style.css 
+nvim themes/tokyonight.css 
+nvim themes/catppuccin.css 
+nvim themes/tokyonight.css 
+ls

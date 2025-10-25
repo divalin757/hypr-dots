@@ -1,3 +1,6 @@
+/* @import "/home/divalin/.config/waybar/themes/catppuccin.css"; */
+@import "/home/divalin/.config/waybar/themes/tokyonight.css";
+
 * {
     font-family: JetBrainsMono Nerd Font Propo;
     font-size: 13px;
@@ -9,16 +12,16 @@ window#waybar {
 
 /* Container bar */
 #workspaces {
-  background-color: #1E1E2E;
+  background-color: @bg-workspace;
   border-radius: 14px;
   padding: 6px 10px;
-  border: 0px solid #2C2C3C;
+  border: 0px solid @gray-border;
   margin: 6px;
 }
 
 /* Inactive buttons (shorter, wider) */
 #workspaces button {
-  background-color: #292E42;
+  background-color: @gray;
   color: transparent;
   min-width: 20px;
   min-height: 12px;
@@ -34,7 +37,7 @@ window#waybar {
 
 /* Active button (a bit wider) */
 #workspaces button.active {
-  background-color: #7BA0F5;
+  background-color: @workspace-active;
   color: black;
   font-weight: bold;
   font-size: 13px;
@@ -44,7 +47,7 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background-color: #C099FF;
+  background-color: @workspace-hover;
   color: black;
   font-weight: bold;
   font-size: 13px;
@@ -55,7 +58,7 @@ window#waybar {
 
 
 #workspaces button.urgent {
-    color: #e67e8c;
+    color: @red;
 }
 
 
@@ -71,13 +74,13 @@ window#waybar {
 
 
 #clock {
-    background-color: #1A1B27;
-    color: #7BA0F5;
+    background-color: @bg;
+    color: @light-blue;
 }
 
 #custom-notification {
-    background-color: #1A1B27;
-    color: #7BA0F5;
+    background-color: @bg;
+    color: @light-blue;
     padding: 0 10px;
     margin: 8 2px;
     border-radius: 99px;
@@ -86,8 +89,8 @@ window#waybar {
 
 
 #custom-power {
-    background-color: #1A1B27;
-    color: #7BA0F5;
+    background-color: @bg;
+    color: @light-blue;
     padding: 0 10px;
     margin: 8 2px;
     border-radius: 99px;
@@ -95,8 +98,8 @@ window#waybar {
 }
 
 #custom-media {
-    background-color: #1A1B27;
-    color: #9ece6a;
+    background-color: @bg;
+    color: @green;
     padding: 0 10px;
     margin: 8 2px;
     border-radius: 99px;
@@ -106,27 +109,29 @@ window#waybar {
 
 
 #custom-pkgs {
-    background-color: #1A1B27;
-    color: #ff9e64;  /* Example color */
+    background-color: @bg;
+    color: @orange;  /* Example color */
     border-radius: 12px;
     padding: 0 10px;
     margin: 8 0px;
 }
+
+
 #custom-arch {
-    background-color: #1A1B27;
-    color: #c0caf5;
+    background-color: @bg;
+    color: @white;
     padding: 0 10px;
     border-radius: 99px;
     margin: 8 2px;
 }
 #battery {
-    background-color: #1A1B27;
-    color: #9ece6a;
+    background-color: @bg;
+    color: @green;
 }
 
 #battery.charging, #battery.plugged {
-    color: #9ece6a;
-    background-color: #1A1B27;
+    color: @green;
+    background-color: @bg;
 }
 
 @keyframes blink {
@@ -138,8 +143,8 @@ window#waybar {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #1A1B27;
-    color: #f7768e;
+    background-color: @bg;
+    color: @red;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -152,22 +157,22 @@ label:focus {
     background-color: #000000;
 }
 #network {
-    background-color: #1A1B27;
-    color: #bb9af7;
+    background-color: @bg;
+    color: @net-purp;
 }
 
 #network.disconnected {
-    background-color: #1A1B27;
-    color: #f7768e;
+    background-color: @bg;
+    color: @red;
 }
 
 #pulseaudio {
-    background-color: #1A1B27;
-    color: #e0af68;
+    background-color: @bg;
+    color: @yellow;
 }
 
 #pulseaudio.muted {
-    background-color: #1A1B27;
-    color: #f7768e;
+    background-color: @bg;
+    color: @red;
 }
 

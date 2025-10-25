@@ -10,6 +10,7 @@ $env.PROMPT_INDICATOR_VI_NORMAL = "<"
 $env.TRANSIENT_PROMPT_COMMAND = ""
 $env.TRANSIENT_PROMPT_COMMAND_RIGHT = ""
 $env.PROMPT_COMMAND_RIGHT = "" 
+$env.PROMPT_INDICATOR = ""
 
 #init zoxide
 zoxide init nushell | save -f ~/.zoxide.nu

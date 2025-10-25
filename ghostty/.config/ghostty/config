@@ -1,7 +1,8 @@
 #theme and font
 
-theme = TokyoNight Moon 
-#theme = Catppuccin Mocha
+# theme = TokyoNight Moon 
+#theme =  Nightfox 
+theme = Catppuccin Mocha
 #theme = Gruvbox Dark
 
 font-family = JetbrainsMono NF
@@ -12,7 +13,7 @@ font-size = 16
 confirm-close-surface = false
 
 #opacity stuff
-background-opacity = 0.5
+# background-opacity = 0.5
 unfocused-split-opacity = 1
 
 #gtk stuff
@@ -33,4 +34,37 @@ gtk-quick-terminal-layer = top
 #shell integrations
 #shell-integration = bash
 
-keybind = shift+enter=text:\x1b\r
+#shaders
+#custom-shader = ghostty-shaders/bloom.glsl
+#custom-shader = ghostty-shaders/cursor_blaze.glsl
+#custom-shader = ghostty-shaders/retro-terminal.glsl
+#custom-shader = ghostty-shaders/animated-gradient-shader.glsl
+#custom-shader = ghostty-shaders/bettercrt.glsl
+#custom-shader = ghostty-shaders/cineShader-Lava.glsl
+#custom-shader = ghostty-shaders/crt.glsl
+#custom-shader = ghostty-shaders/cubes.glsl
+#custom-shader = ghostty-shaders/dither.glsl
+#custom-shader = ghostty-shaders/drunkard.glsl
+#custom-shader = ghostty-shaders/fireworks-rockets.glsl
+#custom-shader = ghostty-shaders/fireworks.glsl
+#custom-shader = ghostty-shaders/galaxy.glsl
+#custom-shader = ghostty-shaders/gears-and-belts.glsl
+#custom-shader = ghostty-shaders/glitchy.glsl
+#custom-shader = ghostty-shaders/glow-rgbsplit-twitchy.glsl
+#custom-shader = ghostty-shaders/gradient-background.glsl
+#custom-shader = ghostty-shaders/in-game-crt.glsl
+#custom-shader = ghostty-shaders/inside-the-matrix.glsl
+#custom-shader = ghostty-shaders/just-snow.glsl
+#custom-shader = ghostty-shaders/matrix-hallway.glsl
+#custom-shader = ghostty-shaders/mnoise.glsl
+#custom-shader = ghostty-shaders/negative.glsl
+#custom-shader = ghostty-shaders/sin-interference.glsl
+#custom-shader = ghostty-shaders/smoke-and-ghost.glsl
+#custom-shader = ghostty-shaders/sparks-from-fire.glsl
+#custom-shader = ghostty-shaders/spotlight.glsl
+#custom-shader = ghostty-shaders/starfield-colors.glsl
+#custom-shader = ghostty-shaders/starfield.glsl
+#custom-shader = ghostty-shaders/tft.glsl
+#custom-shader = ghostty-shaders/underwater.glsl
+#custom-shader = ghostty-shaders/water.glsl
+# keybind = shift+enter=text:\x1b\r

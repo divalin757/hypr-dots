@@ -8,6 +8,9 @@ source ~/.config/nushell/imports/catppuccin_mocha.nu
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
 source $"($nu.cache-dir)/carapace.nu"
 
+#starship 
+# mkdir ($nu.data-dir | path join "vendor/autoload")
+# starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
 # source ~/.local/share/atuin/init.nu
 
@@ -35,3 +38,4 @@ def --env cx [arg] {
     cd $arg
     ls 
 }
+

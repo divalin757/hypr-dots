@@ -7,43 +7,38 @@
     "modules-left": [
         "custom/arch",
         "clock",
-        "custom/pkgs",
-		"custom/media"
+        "custom/pkgs"
     ],
     "modules-center": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
     ],
     "modules-right": [
         "pulseaudio",
         "network",
         "battery",
+        "custom/notification",
         "custom/power",
-        "custom/notification"
     ],
     "hyprland/workspaces": {
       "persistent-workspaces": {
              "*": 5, // 5 workspaces by default on every monitor
        }
      },
-//        "hyprland/workspaces": {
-//         "disable-scroll": true,
-//         "all-outputs": true,
-//         "warp-on-scroll": false,
-//         "format": "{icon}",
-//         "format-icons": {
-//             "urgent": "",
-//             "focused": "",
-//             "default": ""
-//         },
-//         "persistent-workspaces": {
-//                "*": 5, 
-//         },
-//     },
     "custom/arch": {
        "format": "",
        "on-click": "rofi -show drun",
     },
-
+  "custom/powerdaemon": {
+     "format": "{icon}",
+     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+     "tooltip": true,
+     "format-icons": {
+       "default": "",
+       "performance": "",
+       "balanced": "",
+       "power-saver": ""
+   }
+  },
 
 	"custom/notification": {
       "tooltip": false,
@@ -117,6 +112,6 @@
     "custom/power": {
         "format" : "⏻",
 		"tooltip": false,
-        "on-click": "wlogout -b 6"
+        "on-click": "wlogout -b 5"
     }
 }
