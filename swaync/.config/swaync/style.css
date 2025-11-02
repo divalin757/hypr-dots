@@ -1,19 +1,9 @@
-@define-color cc-bg #222436;
-@define-color noti-border-color #c0caf5;
-@define-color noti-bg #222436;
-@define-color noti-bg-darker #1E1E2E;
-@define-color noti-bg-hover #222436;
-@define-color noti-bg-focus #222436;
-@define-color noti-close-bg #c0caf5;
-@define-color noti-close-bg-hover #c0caf5;
-@define-color text-color #c0caf5;
-@define-color text-color-disabled #565f89;
-@define-color bg-selected #7aa2f7;
-@define-color border-green #7aa2f7;
-@define-color red-base #f7768e;
-@define-color red-hover #f7768e;
-@define-color green-base #c0caf5;
-@define-color blue-base  #7aa2f7;
+/* @import "/home/divalin/.config/swaync/themes/catppuccin.css"; */
+/* @import "/home/divalin/.config/swaync/themes/tokyonight.css"; */
+@import "/home/divalin/.config/swaync/themes/nightfox.css";
+
+
+
 
 * {
   font-family: "JetBrainsMono NFM SemiBold", monospace;

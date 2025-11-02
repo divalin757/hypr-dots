@@ -1,9 +1,8 @@
 #theme and font
 
 # theme = TokyoNight Moon 
-#theme =  Nightfox 
-theme = Catppuccin Mocha
-#theme = Gruvbox Dark
+# theme = Catppuccin Mocha
+theme = Nightfox
 
 font-family = JetbrainsMono NF
 #font-family =   CaskaydiaMono NF 
@@ -13,7 +12,7 @@ font-size = 16
 confirm-close-surface = false
 
 #opacity stuff
-# background-opacity = 0.5
+background-opacity = 0.5
 unfocused-split-opacity = 1
 
 #gtk stuff
@@ -37,7 +36,7 @@ gtk-quick-terminal-layer = top
 #shaders
 #custom-shader = ghostty-shaders/bloom.glsl
 #custom-shader = ghostty-shaders/cursor_blaze.glsl
-#custom-shader = ghostty-shaders/retro-terminal.glsl
+# custom-shader = ghostty-shaders/retro-terminal.glsl
 #custom-shader = ghostty-shaders/animated-gradient-shader.glsl
 #custom-shader = ghostty-shaders/bettercrt.glsl
 #custom-shader = ghostty-shaders/cineShader-Lava.glsl
