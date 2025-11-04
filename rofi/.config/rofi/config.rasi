@@ -13,4 +13,7 @@ configuration{
     sidebar-mode: true;
 }
 
-@theme "catppuccin-mocha"
+// @theme "themes/catppuccin-mocha"
+// @theme "themes/tokyonight"
+// @theme "themes/nightfox"
+@theme "theme.rasi"
