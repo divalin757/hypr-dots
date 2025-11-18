@@ -1,0 +1,2773 @@
+cd
+ls
+nvim .config/nushell/config.nu
+nvim test.txt
+rm test.txt
+sl
+cd nvim
+sl
+cd lua/
+l
+cd plugins/
+s
+ls
+nvim completions.lua 
+ls
+cd gh
+ls
+nvim config 
+ls
+ghostty +list-themes
+nvim config 
+ls
+cd .config/nvim
+ls
+cd lua/
+ks
+ls
+cd plugins/
+ls
+nvim completions.lua 
+ls
+ls bks
+mv completions.lua bks/comp.bk
+nvim completions.lua 
+cd ..
+ls
+nvim vim-options.lua 
+cd plugins/
+ls
+nvim completions.lua 
+nvim test.txt
+exit
+ls
+cd gh
+ls
+nvim config 
+balooctl6 kill
+balooctl6 suspend
+exit
+ls
+sudo systemctl start gdm
+sudo systemctl start --now gdm
+gnome
+gnome-session 
+reboot
+ls
+fzf
+cd .local/share/gnome-shell/extensions/transparentosd@ipaq3870/
+ls
+nvim extension.js 
+nvim metadata.json 
+exit
+tweaks
+gnome-tweaks 
+gc https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+cd WhiteSur-gtk-theme/
+sl
+ls
+./install.sh -n WhiteSur -t all -m -N stable --shell -i apple 
+ls
+./install.sh -r
+cd WhiteSur-gtk-theme/
+./install.sh -r
+ls
+tweaks
+gnome-tweaks \
+gnome-tweaks 
+nwg-look 
+cd ..
+sl
+ls
+cd MacTahoe-gtk-theme/
+./install.sh -r
+./install.sh -l --shell
+./install.sh -l --shell -i apple
+./install.sh -r
+cd ..
+rm -rf WhiteSur-gtk-theme/
+nwg-look 
+rm -rf MacTahoe-gtk-theme/
+ls
+git clone https://github.com/vinceliuice/MacTahoe-gtk-theme.git
+./install.sh -l --shell -i apple -c dark 
+cd MacTahoe-gtk-theme/ ;./install.sh -l --shell -i apple -c dark 
+tweaks
+gnome-tweaks 
+sudo pacman -S firefox
+cd MacTahoe-gtk-theme/ 
+ls
+./tweaks.sh -f
+firefox
+./tweaks.sh -f
+ls
+l
+sl
+l
+df -h
+sudo pacman -Sc
+ls
+cd MacTahoe-gtk-theme/
+l
+ls
+cd /home/divalin/.cache/mozilla/firefox/tx3trda7.default
+ls
+nvim user.js
+exit
+git clone https://github.com/arkenfox/user.js.git
+cd user.js/
+ls
+nvim wikipiki/
+yazi
+./updater.sh
+ls
+cd ..
+ls
+sl
+sls
+rm -rf user.js/
+sl
+sudo pacman -Rns firefox
+rm -rf .mozilla/
+cd .cache
+ls
+cd mozilla/
+cd ..
+rm -rf mozilla/
+ls
+sl
+sls
+ls
+sl
+cd MacTahoe-icon-theme/
+ls
+./install.sh -r
+ls
+./install.sh -h
+./install.sh -b
+gnome-tweaks 
+prompt -i
+flatpak run com.mattjakeman.ExtensionManager 
+m
+math 
+math 1 - 1
+math sum
+math sum 1 + 1
+math sum 1 
+math sum 1
+math sum 
+math sum | 1 + 1
+1 + 1 | math sum
+math
+math sum 1
+math sum 1, 1
+man math
+man nu
+man null
+nvim /dev/urandom 
+cat /dev/urandom 
+bat /dev/urandom 
+bat /dev/urandom  |wc -l
+bat /dev/urandom  |tail
+tail
+gnu 
+cat rem | tail
+cat rem | less
+cat rem | bat
+bat rem
+ls
+bat output.txt 
+bat scripts/battery.sh 
+bat scripts/fetch/
+bat scripts/fetch/chadfetch 
+nvim 
+nvim projects/rust/calc-rs/src/main.rs 
+exit
+open rem
+lines
+"hello"
+"hello" | lines
+ls
+gemini]
+notify-send "שיעורי בית הם עמו 67"
+cd nvim
+sl
+ls
+cd lua
+ls
+cd plugins/ls
+cd plugins/
+ls
+nvim completions.lua 
+cdd ..
+sl
+cd ..
+l
+nvim vim-options.lua 
+cd plugins/
+ls
+nvim completions.lua 
+sl
+nvim test.txt
+mpv
+cd
+zsh
+s image viewer
+sudo pacman -S imv
+sudo pacman -Rns imv
+s image viewer
+s image viewer |rg xvi
+sudo pacman -S viewer
+sudo pacman -S xviewer
+ls
+sls
+ls
+sls
+sl
+sls
+sl
+sudo pacman -S gthumb<\n>
+sudo pacman -S Celluloid
+sudo pacman -S celluloid
+mpv
+exit
+fd -e mp4 -e mkv -e mov -e avi -e webm
+fd -HI -e mp4 -e mkv -e mov -e avi -e webm ~<\n>
+ls
+killall gnome
+killall gnome-shell 
+ls
+cd Pictures/
+ls
+git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
+ls
+cd .config/nvim
+ls
+nwg-look 
+nvim
+cd lua/
+ls
+ls -a
+la
+las
+s
+ls
+cd plugins/
+ls
+cd ..
+ls
+nvim vim-options.lua 
+cd plugins/
+ls
+pwd
+ls
+sls
+ls
+nvim rust.lua 
+ls
+nvim lazydev.lua 
+nvim none-ls.lua 
+cd ..
+ls
+nvim vim-options.lua 
+ls
+nvim vim-options.lua 
+nvim
+cd plugins/
+ls
+nvim .
+nvim oil.lua
+l
+nvim oil.lua
+ls
+ls bks
+mkdir bks/comp
+ls
+cd bks
+sl
+ls
+mv comp.bk completions.bk comp/
+ls
+cd ..
+ls
+mv completions.lua bks/comp/comp/completions-almost-good.lua.bk
+ls
+mv completions.lua bks/comp/comp/completions-almost-good.lua.bk
+mv completions.lua bks/comp/comp/completions.lua
+files
+nautilus 
+s
+ls
+nvim completions.lua 
+ls
+nvim completions.lua 
+diff completions.lua bks/comp/completions-almost-good.lua.bk 
+ls
+nvim completions.lua 
+nvim 
+nvim test.txt
+ls
+nvim completions.lua 
+rm completions.lua
+ls
+cp bks/comp/completions-almost-good.lua.bk completions.lua
+ls
+nivm
+nvim
+lls
+ls
+sls
+sl
+nvim completions.lua 
+rm completions.lua
+cp bks/comp/completions-almost-good.lua.bk completions.lua
+nvim
+ls
+nvim
+ls
+nvim test.txt
+nvim telescope.lua 
+nvim completions.lua 
+ls
+nvim telescope.lua alpha.lua 
+ls
+nvim completions.lua 
+ls
+nvim completions.lua 
+ls
+nvim completions.lua 
+cd ../..
+nvim .stylua.toml
+cd p
+ls
+nvim completions.lua 
+nvim
+l
+ls
+cd projects/
+ls
+cd rust
+ls
+cd calc-rs/
+sl
+ls
+nvim src/main.rs 
+cd ..
+ls
+cargo new game
+cd game
+ls
+nvim src/main.rs 
+cargo run
+nvim src/main.rs 
+cargo run
+nvim src/main.rs 
+cargo run
+nvim src/main.rs 
+cargo add show_image
+nvim src/main.rs 
+cargo run
+cargo remove show_image
+cargo remove view_image
+cargo clean
+nvim Cargo.toml
+cargo clean
+cd ..
+rm -rf game
+ls
+cd projects/
+sl
+ls
+cd rust
+ls
+cd gueesing_game/
+ls
+./target/debug/gueesing_game
+ls
+./target/debug/gueesing_game
+ls
+cd 
+nvim test.pu
+nvim test.py
+cd ..
+ls
+cargo new test
+ls
+cargo new hello
+cd hello
+lc
+cargo run
+time ./target/debug/hello 
+zsh
+zsh
+./target/debug/gueesing_game
+s spike prime
+sudo pacman -S vscodium-bin
+yay -S vscodium-bin
+yay -Sc
+yay -yc
+yay -Yc
+codium test.py
+yay -S brave-bin
+yay -Yc
+yay -Sc
+df
+duf
+clear
+exit
+ls -a
+ls
+s
+ls
+python3 -m venv $HOME/.pybricks-venv
+zsh
+exit
+duf
+codium test.py
+rm test.py test.sh
+cd projects/
+ls
+mkdir fll
+cd fll
+ls
+mkdir first-onr
+codium first-onr
+pybricks
+exit
+rm -rf projects/fll/first-onr/
+cd
+cd .pybricks-venv/
+ls
+pybricksdev 
+cd
+pybricksdev 
+cd .pybricks-venv/
+ls
+cd bin
+ls
+nvim activate 
+ls
+codium 
+"/home/divalin/.pybricks-venv/bin/pybricksdev" run ble "/home/divalin/.pybricks-venv/fll/.py"
+nvim .bashrc
+exit
+du
+cd yay
+l
+du
+vcs
+file-locate.sh 
+file-locate.sh |fxf
+lscpu
+lscpu |select Mds
+lscpu |to json
+lscpu |to json |jq
+lscpu |to json |jq |lines
+lscpu |to json |jq |lines |from json
+lscpu |grep Model
+lscpu |grep Model |awk {print1}
+lscpu |grep Model |awk {print 1}
+ls
+lscpu |grep Model |awk {print 1}
+lscpu |grep Model |awk {print $1}
+lscpu |grep Model name |awk {print $1}
+lscpu |grep "Model name" |awk {print $1}
+lscpu |grep "Model name" |awk {print $2}
+lscpu |grep "Model name" |awk {print $3}
+brave start.duckduckgo.com
+arp-scan --localnet |grep Apple
+arp-scan --localnet |rg Apple
+ךד
+ping 172.17.27.195
+ping 172.16.24.162
+nvim ip.txt
+ping 172.16.24.162
+nvim ip.txt
+ping 172.16.27.195
+nvim ip.txt
+ךד
+ls
+ping 172.16.27.195
+12 * 12
+slepp
+sleep -h
+sleep 30min; norify-send "done"
+arp-scan --localnet |rg Apple
+arp-scan --localnet 
+ls
+rg "git" rem 
+rg git
+rg github
+http get  
+http get  https://github.com
+http get  https://github.com |markdown parse
+http get  https://github.com |markdown 
+edit
+msedit 
+msedit test.md
+msedit --help
+echo $0
+echo $env.SHELL
+msedit --help
+edit
+alias edit='msedit'
+alias edit= 'msedit'
+alias edit = msedit
+esit
+edit
+$carapace_completer
+$env.DESKTOP_SESSION
+$env.GEMINI_CLI_FLAGS
+$env.HOME
+ls
+/home
+divalin
+/divlain
+div
+l
+cd divalin/
+ls
+nvim est.html
+ls
+cd rofi
+ls
+msedit browser.sh
+nvim browser.sh 
+./browser.sh
+du
+cd .cache
+ls
+du
+rm -rf go-build/
+ls
+du
+duf
+du
+xs
+cd
+du
+cd .local/
+du
+cd share/
+du
+rm -rf baloo/
+cd
+duf
+du
+cd .rustup/
+du
+ls tmp
+du tmp
+cd toolchains/
+ls
+du
+rm -rf nightly-x86_64-unknown-linux-gnu/
+cargo
+cd
+du
+duf
+playerctl metadata xesam:title 
+playerctl metadata xesam:title |grep Lib
+playerctl metadata xesam:title |grep Librewolf
+playerctl metadata xesam:title |grep LibreWolf
+playerctl metadata xesam:title |rg LibreWolf
+playerctl metadata xesam:title |rg LibreWolf |awk { print $1 }
+playerctl metadata xesam:title |rg LibreWolf |awk { print $2 }
+playerctl metadata xesam:title |rg LibreWolf |awk { print $3 }
+playerctl metadata xesam:title |rg LibreWolf |awk { print $4 }
+playerctl metadata xesam:title |rg LibreWolf |awk { print $1 $3 }
+playerctl metadata xesam:title |rg LibreWolf |awk { print $1 $2 }
+playerctl metadata xesam:title |rg LibreWolf |awk { print $1 \n$2 }
+ps
+^ps
+^ps |lines
+^ps --color |lines 
+^ps list
+^ps --all
+$theme.mauve
+ls
+ps
+procs
+procs --pager=disable
+procs --pager=disable 
+procs --pager=disable |lines
+ps
+btop
+git fast-import 
+jjj
+ls
+l
+^ps --all
+^provs
+^procs
+^procs --pager=auto 
+^procs --pager=bat
+^procs --pager=less
+^procs --pager=disable
+pkill 40130
+^procs --pager=disable
+cd
+carapace batch 
+apt
+carapace cargo 
+carapace 
+ls
+cd hyp
+ls
+nvim vars.conf 
+nvim vars-minimal.conf
+nvim hyprland.conf 
+nvim vars.conf 
+nvim vars-minimal.conf 
+lsl
+ls
+l
+nvim mocha.conf 
+:wq
+gtk
+gtk4-launch 
+gtk4-launch --help
+cd
+file-locate.sh 
+du
+cd _cacache/
+s
+ls
+du
+cd content-v2/
+ls
+du
+cd sha512/
+ls
+du
+cx
+cx .config
+ls
+cx
+cd
+cx
+c
+cx --help
+cx
+cx --help
+cd .config/nus
+ls
+banner 
+banner --help
+banner --short 
+banner 
+basenc 
+basenc reminders.txt 
+lstopo 
+lstopo-no-graphics 
+l
+ls
+sl
+nvim vars-minimal.conf 
+ls
+numfmt --header
+numfmt --help
+ls
+cd /usr/bin/arp-scan
+/usr/bin/arp-scan
+carapace arping 
+nvim reminders.txt 
+cd not
+ls
+du
+cd .local/
+du
+cd share/
+ls
+du
+ps
+glow https://github.com/divalin757/hypr-dots/README.md
+glow https://raw.githubusercontent.com/divalin757/hypr-dots/refs/heads/main/README.md
+md-tui --help
+glow --help
+glow --tui
+glow -t ERR
+glow ls
+w
+sls
+ls
+sl
+slslsslslslslslslslslslslslslslslslslsllslslslsslsll
+q
+glow https://raw.githubusercontent.com/divalin757/hypr-dots/refs/heads/main/README.md
+md-tui https://raw.githubusercontent.com/divalin757/hypr-dots/refs/heads/main/README.md
+cd Ob
+ls
+rm google.com.md
+ls
+nvim Calc-rs.md 
+cd nvim/lua/pl
+nvim md.lua 
+carapace stty
+carapace starship 
+starship completions bash 
+starship completions bash | save hello.txt
+nvim hello.txt 
+cargo doc 
+ls
+rm target/doc/calc_rs/index.html
+ls
+nvim src/main.rs 
+mv src/main.rs src/i-suck-at-rust-so-i-use-meval-for-easy-crate-stuff.rs
+ls src/
+nvim src/main.rs 
+nvim src/i-suck-at-rust-so-i-use-meval-for-easy-crate-stuff.rs 
+nvim Cargo.toml 
+ls
+cargo clean
+ls
+nvim src/main.rs 
+mv src/i-suck-at-rust-so-i-use-meval-for-easy-crate-stuff.rs ~/scripts/misc/test.rs
+s
+nvim src/main.rs 
+lsblk
+lsblk |lines
+ls
+lines
+lines --help
+ls |lines
+ls 
+exa |lines
+exa --color=always |lines
+exa --color=always --icons=always |lines
+exa --color=always --icons=always --filesize|lines
+exa --color=always --icons=always -a|lines
+exa --color=always --icons=always -la |lines
+exa --color=always --icons=always -la --no-permissions --no-user |lines 
+exa --color=always --icons=always -la --no-permissions --no-user --modifies|lines  
+exa --color=always --icons=always -la --no-permissions --no-user --modified |lines  
+c
+cargo clippy 
+cd projects/rust/gueesing_game/
+cargo clippy 
+cargo run
+lls
+ls
+nvim Cargo.lock 
+nvim Cargo.tom
+cd .config
+ls
+cd theme-switcher/
+ls
+touch main.sh
+ls
+mkdir themes
+ls
+mkdir themes/tokyonight themes/catppuccin themes/nightfox
+ls
+ls themes/
+ls themes/nightfox/
+cd ..
+ls
+du
+cd
+du
+cd .npm
+ls
+du
+cd _cacache/
+l
+du
+cd content-v2/
+ls
+rm -rf sha512/
+cd
+ls
+npm
+nvim projects/rust/calc-rs/src/main.rs 
+duf
+du
+cd -
+cd ..
+dc
+cd 
+cd ..
+sl
+du
+cd ..
+di
+du
+yay -Sc
+du
+duf
+cd .local/
+du
+cd share/
+du
+rm -rf ballo
+rm -rf baloo   
+.config
+ls
+25 / 4
+du
+cd projects/
+du
+cd rust/
+ls
+du
+cd gueesing_game/
+cargo clean
+cd ..
+du
+cd ide
+ls
+nvim Cargo.toml 
+cargo clean
+ls
+nvim Cargo.toml 
+cd
+du
+du .
+duf
+du
+cdcd .cach
+cd .cache
+du
+rm -rf thumbnails/
+cd tldr
+l
+cd pages/
+ls
+du
+cd common/
+ls
+du
+nvim tldr.md 
+tlsr
+cat tldr.md 
+tldr
+tldr tldr
+ls
+nuls
+fmt
+fmt note.md 
+nvim test.md 
+nvim note.md 
+l
+cd ..
+ls
+fmt logoutmenu.sh 
+nvim logoutmenu.sh 
+fmt --help
+ls
+rustfmt 
+cd pro
+ls
+cd rust/
+ls
+cd ide
+ls
+cd src/
+ls
+rustfmt main.rs
+ls
+nvim main.rs 
+ls
+rust main.rs
+rustdoc 
+rustdoc --help
+cx
+cx --help
+cx .config/
+cx ~/.c
+cx ~/.config
+cx ~/.config/yazi
+cx ~/.config/yazi/pl
+cx ~/.config/yazi/plugins/
+cx ~/.config/yazi/plugins/full-border.yazi/
+ls
+nvim main.lua 
+ls
+nvim README.md 
+l
+cd ..
+ls
+cd ..
+yazi
+ls
+nvim gtkrc
+cd
+fzf-ls
+hyprctl dispatch fullscreen 
+hyprctl dispatch fullscreen 1
+hyprctl dispatch movewindoworgroup 
+hyprctl dispatch movewindoworgroup ll
+hyprctl dispatch movewindoworgroup l
+ls
+du
+cd .cache
+ls
+du
+rm -rf go
+du
+duf
+du
+rm -rf go-build/ goimports/ gopls/
+du
+duf
+nvim
+cd nvim
+l
+cd
+cd nvim
+ls
+nvim lua/plugins/lsp-config.lua 
+ls
+cd 
+di
+du
+cd .local/
+ls
+du
+cd share/
+ls
+du
+du |sort 
+du |sort by-size
+du |sort by-size 10
+du |sort --help
+l
+du
+cd nvim
+du
+cd mason
+du
+ls packages/
+du
+duf
+ls
+du
+l
+cd ..
+du
+cd ..
+du
+sudo pacman -Sc
+duf
+yay -Sc
+sudo pacman -Qtd
+sudo pacman -Qted
+sudo pacman -Qtod
+12 * 13
+7 + 6 + 15 + 8 + 8 + 2
+15 * 8
+spotify -h
+spotify-launcher -h
+ls
+sleep 25min; notify-send "dress up"
+lsblk
+cd /boot
+cd /mnt/boot
+ls
+pw
+ls
+sleep
+sleep -h
+sleep 25min; notify-send "dress up"
+sleep 23min; notify-send "dress up"
+du
+cd .local/
+ls
+du
+cd share/
+ls
+du
+cd backgrounds/
+ls
+cd ..
+du
+ls
+rm org.speed_dreams.SpeedDreams/
+du
+cd .cache
+ls
+cd yay
+ls
+du
+cd .local/
+ls
+du
+cd share/
+s
+du
+rm -rf ballo
+rm -rf baloo
+df
+duf
+du
+df
+du
+df
+du
+df
+du
+duf
+cd ..
+ls
+du
+cd qemu/
+ls
+ud
+du
+tree
+alias tree = "exa --tree"
+alias tree = exa --tree
+tree
+tree |du
+ls
+du
+ls
+cd
+nvim reminders.txt 
+cd .cacuw
+du
+cd .cache
+ls
+du
+nvim macos-sonoma.conf 
+du
+cd
+du
+ls .var
+ls .var/app/
+sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0
+ls |lines
+ls 
+ls \
+ls \/
+ls
+ls |nu
+ls
+ls --icons
+exa --color=always --icons=always -la --no-permissions --no-user --modified |lines  
+exa --color=always --icons=always -la --no-permissions --no-user --modified |lines  ls
+l
+os
+ps
+p
+du
+sleep 11min; pkill librewolf
+du
+cd .cache
+sl
+ls
+du
+cd yay
+ls
+cd 
+du
+cd .local/
+du
+cd share/
+l
+du
+du .local/share/
+cd .local/
+ls
+cd share/
+du
+rm -rf baloo
+du
+cd share/
+du
+rm -rf spotify-launcher/
+cd
+nvim reminders.txt 
+sudo pacman -Rns spotify-launcher<\n>
+duf
+nvim reminders.txt 
+fd -H spot
+fd -H spotify
+rm -rf .cache/spotify/
+fd -H spotify
+rm -rf .config/spotify/
+duf
+ls
+nvim 
+ks
+ls
+du
+cd .vscode-oss/
+ls
+tree
+alias tree = exa --tree
+tree
+sp
+spf
+lf
+s lf
+du
+rm .sh_history
+rm -rf MacTahoe-gtk-theme MacTahoe-icon-theme/
+ls
+du
+duf
+dj
+du
+cd .cache
+ls
+du
+rm -rf swww
+rm -rf thumbnails 
+du
+duf
+ud
+du
+c
+cd
+ls
+l
+sl
+cd kit
+ls
+nvim kitty.conf 
+ls
+cd
+du
+rofi -h
+rofi -show calc
+cd swayosd
+ls
+cd theme
+ls
+cd themes/
+l
+nvim tokyonight/swayosd.css 
+cd swayosd
+ls
+nvim style.css 
+nvim theme.css 
+nvim style.css 
+swayosd-client -h
+nvim style.css 
+pkill swayosd-server; swayosd-server & disown
+nvim theme.css 
+nvim style.css 
+ls
+du
+rm -rf go-build/
+ls
+du
+rm -rf nim 
+nitch
+rm -rf gnome-calculator gnome-desktop-thumbnailer/ gnome-photos/
+ls
+du
+dudf
+duf
+cd
+du
+rm -rf .cache/noctalia/
+fd -H no
+fd -H nocta
+rm -rf .config/noctalia/
+ls
+la
+l
+s dcli
+zellij options 
+nvim reminders.txt 
+cd .config/zellij/
+l
+nvim config.kdl 
+zellij
+exit
+ls
+rg --binary 
+rg --binary "ls"
+ls
+exit
+swayosd-client
+swayosd-client --help
+swayosd-client --brightness=raise
+swayosd-client --brightness=lower 
+ls
+cd .config/swayosd
+ls
+nvim style.css 
+ls
+cd hypr
+l
+nvim hyprland.conf 
+cd swayosd
+ls
+nvim style.css 
+pkill swayosd-server; swayosd-server & disown
+l
+ls
+nu-check 
+nu-check --help 
+tldr
+tldr ls
+cd .c
+ls
+cd nushell
+l
+nvim config.nu 
+ls
+cd ls
+cd nu
+ls
+nvim env.nu 
+ls
+cd .config
+ls
+cd nus
+l
+nvim env.nu 
+ls
+nvim config.nu 
+nvim env.nu 
+u
+ls
+cd ..
+l
+cd catppuccin
+l
+nvim swayosd.css 
+cd ..
+l
+cd ..
+nvim main.sh 
+ls
+z
+ls
+z .c
+zi
+fzf
+fzf |xargs ls
+fzf |xargs cd
+rg
+$env.FZF_DEFAULT_COMMAND=""
+$env.FZF_DEFAULT_COMMAND = "fd --type f"<\n>
+fzf
+ls
+fzf
+$env.FZF_DEFAULT_COMMAND = "fd "<\n>
+fzf
+$env.FZF_DEFAULT_COMMAND = "fd . --type f --type d --color=always --exclude .git"<\n>
+fzf
+cd
+fzf
+$env.FZF_DEFAULT_COMMAND = "fd . --type f --type d --color=always --hidden --exclude .git"<\n>
+fzf
+cd nu
+ls
+fzf
+fzf |xargs nvim
+fzf
+l
+fzf
+fzf --reverse
+rust doc
+rustdoc 
+rustup docs
+cd projects/
+l
+cd rust/
+ls
+git clone https://github.com/rust-lang/rustlings
+ls
+tree
+alias tree = exa --tree
+tree
+cd rustlings/
+ls
+cargo run
+nvim src/exercise.rs 
+ls
+nvim exercises/
+cargo run
+nvim exercises/00_intro/intro2.rs 
+cargo run
+cargo clean
+cd ..
+rm -rf rustlings/
+sl
+duf
+$env.FZF_DEFAULT_OPTS = "<\n>#--color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8<\n>#--color=fg:#CDD6F4,header:#F38BA8,info:#CBA6F7,pointer:#F5E0DC<\n>#--color=marker:#B4BEFE,fg+:#CDD6F4,prompt:#CBA6F7,hl+:#F38BA8<\n>#--color=selected-bg:#45475A<\n>--ansi"<\n><\n>
+fzf
+ךד
+ךכ
+כז
+fzf
+fzf --color=ansi
+fzf --color=always
+fzf --color=dark 
+fzf --color=light 
+fzf --color=16 
+fzf --color=bw 
+ls
+fzf --color=bw 
+fzf -
+fzf 
+fzf |tac
+tac |fzf
+atuin init nu 
+atuin init nu |nu
+atuin init nu |save hello.txt
+nu hello.txt 
+ls
+atuin init nu --disable-up-arrow 
+cd nu
+ls
+atuin init nu --disable-up-arrow | save ~/.local/share/atuin/init.nu<\n>
+atuin init nu --disable-up-arrow | save -f ~/.local/share/atuin/init.nu<\n>
+nvim config.nu 
+atuin search -i
+cd atuin
+l
+cd .c / atuib
+ls
+nvim config.nu 
+ls
+cd atuin
+l
+nvim config.toml 
+cmatrix -r -c -b
+nvim config.toml 
+tree
+alias tree = exa --tree
+tree
+nvim themes/nord.toml
+ls
+ls themes/
+cat themes/catppuccin-mocha-mauve.toml 
+cp themes/catppuccin-mocha-mauve.toml themes/nord.toml
+ls
+nvim themes/nord.toml 
+ls
+l
+atuin dotfiles 
+atuin dotfiles alias
+atuin dotfiles alias list
+ls
+cat config.toml 
+cat config.toml.bk 
+nvim config.toml.bk 
+nvim config.toml
+cd ~/.local/share/atuin/
+l
+nvim history.db 
+sqlite3 
+sqlite3 history.db 
+ls
+l
+alias 
+alias -h
+cd
+cd projects/
+l
+cd python/
+;
+s
+lls
+ls
+mkdir alias
+cd alias/
+nvim main.py
+python3 main.py
+l
+nvim main.py 
+python3 main.py
+atuin history prune 
+atuin history list  
+atuin history list   |fzf
+atuin history list   |fzf |xargs bash -c ""
+atuin history list   |fzf |awk '{ print $3@ }' | xargs bash -c ""
+fzf
+cd kit
+l
+nvim kitty.conf 
+ls
+c++ 
+c++ --help
+ls
+cd kit
+l
+nvim kitty.conf 
+ls
+cd theme
+l
+nvim main.sh 
+t
+cd projects/
+l
+cd rust/
+l
+cd rustlings/
+ls
+nvim exercises/00_intro/intro2.rs 
+cd kit
+l
+nvim kitty.conf 
+ls
+cd projects/
+l
+cd rust/
+l
+cd rustlings/
+l
+cd exercises/
+ls
+nvim 0\
+cd rust
+ls
+cd ru
+du
+duf
+ls
+rustc --explain E0308
+rustup docs
+nvim 01_variables/variables1.rs 
+hyprpm enable hyprscrolling
+cargo run
+l
+exit
+ls
+duf
+du
+cd .cache
+ls
+du
+krunner
+ls
+du
+^du 
+duf
+rm -rf fuzzel
+rm -rf `Application Not Responding/`
+rm -rf `Custom Dialog/`
+rm -rf `Hyprland Updated!/`
+rm -rf Microsoft/
+duf
+hyprpm update
+ls
+hyprpm list
+duf
+cd hypr
+ks
+ls
+nvim hyprland.conf 
+nvim vars.conf 
+ls
+cd hypr
+ls
+nvim vars.conf 
+exit
+cd hypr
+l
+nvim vars.conf 
+hyprpm disable hyprscrolling
+ls
+cd
+ls
+nvim reminders.txt 
+l
+s rustrover
+ls
+s
+ls
+nvim cmd.exe 
+yay -S rustrover
+duf
+yay -Yc
+yay -Sc
+duf
+ls
+pkill rust
+ps
+ps |rg rust
+rustrover
+yay -Rns rustrover
+duf
+yay -Sc
+cd rustlings/
+l
+cargo run
+cd ..
+cd rustlings/
+l
+ls
+nvim 
+nvim .
+rustc --explain E0061
+cd rustlings/
+l
+cd ..
+sl
+l
+cd src/
+l
+nvim exercise.rs 
+sl
+l
+nvim watch/state.rs 
+ls
+cd ..
+nvim Cargo.toml 
+cargo run
+ls
+nvim 
+ls
+nvim cmd.exe 
+25 / 4
+25 / 4 / 12 /13
+25 / 4 / 12 / 13
+25 / 4 / 12 | + 12
+25 / 4 / 12 | math sum
+ls
+ls
+cd math
+cd rustlings/
+ls
+cd ..
+cd rustlings/
+ls
+,s
+ls
+nvim cmd.exe 
+ls
+nvim  hyprlandd.conf
+ls
+nvim  hyprlandd.conf
+ls
+nvim hyprlandd.conf 
+ls
+trash
+trash list
+trash --help
+trash-lis
+trash-list 
+trash-empty
+l
+nvim
+trash-empty
+curl cht,sh
+curl cht.sh
+curl cht.sh/rust
+curl cht.sh/rust/slices
+ls
+cd scripts/
+nvim cht.sh
+chmod +x cht.sh 
+./cht.sh
+./cht.sh --shell
+s cht.sh
+nvim cht.sh 
+./cht.sh --shell
+nvim cht.sh 
+./cht.sh --shell
+nvim cht.sh 
+./cht.sh --shell
+nvim cht.sh 
+./cht.sh --shell
+nvim cht.sh 
+./cht.sh --shell
+./cht.sh 
+nvim cht.sh 
+./cht.sh 
+nvim cht.sh 
+./cht.sh \
+nvim cht.sh 
+./cht.sh \
+nvim cht.sh 
+./cht.sh \
+./cht.sh 
+nvim cht.sh 
+./cht.sh 
+nvim cht.sh 
+./cht.sh 
+nvim cht.sh 
+./cht.sh 
+nvim cht.sh 
+tmux -p
+tmux display-popup 
+tmux display-popup -E ./cht.sh
+nvim cht.sh 
+ls
+l
+v cmd.exe 
+./scripts/cht.sh
+ls
+./cmd.exe
+./scripts/cht.sh
+ls
+sl
+ls
+l
+alias sl = ls
+sl
+slblk
+alias slblk = lsblk
+slblk
+slblk |table
+table 
+table |lsblk
+table --help
+lsblk |table --index 1
+lsblk |lines
+cargo run
+ls
+exit
+nvim
+l
+ls
+nvim cmd,exe
+nvim cmd.exe 
+cd nushe
+l
+nvim config.nu 
+nvim env.nu 
+fzf
+fzf --multi
+$env.FZF_DEFAULT_COMMAND = "fd . --type f --type d --color=always --hidden --exclude .git"<\n>
+$env.FZF_DEFAULT_COMMAND = "rg"<\n>
+fzf
+$env.FZF_DEFAULT_COMMAND = "rg Hello"<\n>
+fzf
+$env.FZF_DEFAULT_COMMAND = "rg Hello/|m"<\n>
+fzf
+rg 
+rg
+read pattern
+input
+hello = input 
+hello = $(input)
+nvim test.nu
+input hello
+nvim test.nu
+input $hello
+nvim test.nu 
+a
+l
+rm test.nu
+exit
+zsh
+nu
+exiv2 
+exit
+ls
+nitch
+nim
+ls]
+nvim .config/nushell/imports/
+s
+ls
+s
+s aur
+ls
+nvim cmd.exe 
+acpi --version
+-v
+cd fzf
+ls
+cd .local/
+ls
+cd bin
+ls
+nvim todo 
+todo --version
+./todo --version
+nvim 
+./todo --version
+nvim todo 
+./todo --version
+./todo -v
+./todo --version
+./todo -h
+todo versio
+todo version
+./todo version
+s rustl
+s lings
+ls
+nvim reminders.txt Desktop/
+qalc
+w
+w --container 
+s
+ss
+rg 
+nvim bash.sh
+bash bash.sh 
+nvim bash.sh
+rm bash.sh
+s pdf
+nvim pdfjs
+yay -Ss rustrover
+ping 192.1.1.0
+ip route
+ping 192,168.1.1
+;s
+ls
+nvim reminders.txt 
+lg
+lf
+s lf
+i lf
+f
+lf
+lg
+lf
+r lf
+nvim .bashrc j
+ls
+s
+fzf
+fzf |xargs nvim
+fzf
+ls
+fzf
+f
+ff
+notify-send "שיעורי בית הם עמו 67"
+notify-send "שיעורי בית הם דעמו 67"
+ךד
+nuj
+nu init nut
+nu init nu
+init
+init --help
+init systemd
+init
+s
+ls
+nvim ls
+ls
+nvim cmd.exe 
+l
+config 
+config env
+config env cmd.exe
+config nu 
+$nu.config-path
+$env.EDITOR    $nu.config-path
+nvim $nu.config-path
+cd at
+l
+rm config.toml.bk
+nvim config.toml 
+vim colors.vim
+alias vim = nvim
+vim
+ls
+l
+nvim cmd.exe Desktop/
+cd rul
+cd rr1ls
+rg
+rofi -show calc
+;s
+cd 
+cd /tmp/
+ls
+lexa
+exa
+rwyazi
+yazi
+xdg-open
+cd
+xdg-open cmd.exe
+walker
+s walker
+nvim reminders.txt 
+walker
+walker-bin
+yay -S walker-bin
+ls
+sll
+l
+editor
+$EDITOR
+$env.HYPRLAND_CMD
+sl
+ls
+l
+nvim reminders.txt 
+ls
+nvim reminders.txt 
+nwg-dock-hyprland 
+./.config/nwg-dock-hyprland/launch.sh
+l
+./.config/nwg-dock-hyprland/launch.sh
+cd nwg-d
+ls
+nvim launch.sh 
+cht.sh
+cd
+$env.PATH
+cht.sh
+cd nu
+ls
+nvim config.nu 
+cd .config
+ls
+nvim config.nu 
+cht.s
+bash
+nvim
+bash
+rm 
+nvim
+cd .config
+ks
+ls
+cd nushell
+l
+nvim env.nu 
+let-env PATH = (["~/.local/bin"] | append $env.PATH)<\n>ls
+nvim env.nu 
+cht.sh
+nvim env.nu 
+ls
+cht.sh
+curl cht.sh/rust/slices
+cd kit
+ls
+nvim kitty.conf 
+l
+ls
+cd hypr
+l
+ls
+cd kit
+s
+nvim hyprland.conf 
+ls
+nvim -c 
+cd .config
+ls
+cd nvim
+ls
+cd l
+ls
+cd tjeme
+cd themel
+cd theme
+l
+nvim main.sh 
+ls
+rofi -show filebrowser -h
+rofi -show recursivebrowser
+rofi -show recursivebrowser -theme fullscreen-preview
+cd
+cd ~~/
+./*78593623
+.
+cd ~/.config/backgrounds/
+rofi -show recursivebrowser -theme fullscreen-preview
+rofi -show recursivebrowser -theme fullscreen-preview ~/.config/backgrounds
+cd sad.pngl
+cd
+cd scripts/
+l
+tree
+alias tree = exa --tree
+tree
+ROFI_RECURSIVE_BROWSER_DIRECTORY="$HOME/.config/backgrounds" \<\n>    rofi -show recursivebrowser -theme fullscreen-preview<\n>
+nvim wall.sh 
+#!/bin/sh<\n><\n>WallDir=${1:-~/.config/backgrounds}<\n><\n>PREVIEW=true \<\n>rofi -no-config -theme fullscreen-preview.rasi \<\n>	-show filebrowser -filebrowser-command 'swww img --transition-fps 60 --transition-type center --transition-angle 0 --transition-duration 1' \<\n>	-filebrowser-directory "$WallDir" \<\n>	-filebrowser-sorting-method mtime \<\n>	-selected-row 1 >/dev/null<\n>
+cd theme
+ls
+nvim wallpaper-handler.sh 
+cd theme
+l
+./wallpaper-handler.sh
+nvim wallpaper-handler.sh 
+./wallpaper-handler.sh
+cat current-wall.txt 
+nvim wallpaper-handler.sh 
+nvim 0
+nvim wallpaper-handler.sh 
+WallDir=$(cat ~/.config/theme-switcher/current-wall.txt)<\n>
+cd theme
+ls
+nvim wallpaper-handler.sh 
+./wallpaper-handler.sh
+while true;
+ls
+rga 
+rga --rga-no-cache
+rga --rga-no-cache L
+/usr/bin/arp-scan
+/usr/bin/arp-scan --localnet
+nmtuio
+nmtui
+ls
+nvim reminders.txt 
+s walker
+s walker-bin
+i walker-bin
+yay -Sc
+ךד
+l
+nvim reminders.txt 
+nwg-dock-hyprland -hl 37
+nwg-dock-hyprland -hl 37 -nolauncher -nb
+nwg-dock-hyprland -hl 37 -nolauncher -nb 37
+nwg-dock-hyprland -hl 37 -nolauncher 
+cd .config/nwg-dock-hyprland/
+s
+ls
+l
+k
+cd .config/kitty
+l
+nvim kitty.conf 
+ls
+pidof
+pidof kitty 
+cd theme
+l
+nvim main.sh 
+bash -c /bin/kill -SIGUSR1 $(pgrep kitty)<\n>
+bash -c "/bin/kill -SIGUSR1 $(pgrep kitty)"<\n>
+cd nu
+l
+nvim config.nu 
+kitty-reload
+cd .config/kitty
+ls
+nvim kitty.conf 
+kitty-reload
+nvim .config/kitty/kitty.conf 
+nvim
+jujutsu nvim
+jj git ]
+jj git 
+ls
+s
+ls
+walker
+nvim nvim nvim nvim nvim nvim nvim nvim nvim 
+tt
+ls
+./cmd.exe
+cd theme
+l
+killall
+spawn tralalerotralla
+cd scripts/
+l
+nvim spawn
+nvim spawn 
+chmod +x spawn 
+./spawn 
+./spawn tralalerotralala
+nvim spawn 
+sl
+arp-scan --localnet 
+t
+tmux
+;s
+ls
+cd .config/hypr
+ls
+nvim 
+l
+nvim
+ls
+sudo pacman -S jujutsu
+jj
+s
+d
+cd dot
+ls
+jj
+sudo pacman -Rns jujutsu
+cd /
+fd -H j
+fd -H juju
+sudo pacman -Sc
+fd -H juju
+ls
+nvim remm
+ls
+nvim cmd.exe 
+s
+init
+swayosd-client & disown
+swaync-client 
+nvim ~/.config/hypr/hyprland.conf 
+cd theme
+ls
+nvim main.sh 
+pipewire
+reboot
+ls
+cd scripts/
+l
+cd osd/
+ls
+./brightness.sh --dev
+./brightness.sh --dec
+./brightness.sh --dev
+./brightness.sh --dec
+ls
+cd ~/.cargo/
+l
+cd
+cd rus
+cd rustlings/
+cht.sg
+cht.sh
+rustup docs
+nvim
+ls
+cargo run
+ls
+exit
+the cohen a z
+tee
+145899
+cmatri
+cmatrix 
+cmtime 
+cmatrix
+l
+arp-scan --localnet 
+ssh ls
+ssh omri@67.67.67.67
+ls
+fd -H ls
+fzf
+atuin history list   |fzf |awk '{ print $3@ }' | xargs bash -c ""
+atuin history dedup 
+atuin history dedup --before
+atuin history dedup --before before
+atuin history dedup --before 1
+atuin history dedup --before 1.23
+ls
+nvim 
+notify-send "שיעורי בית הם דעמו 67"
+./scripts/clock.sh
+zellin
+i zellij
+zellij
+zellij a
+zellij a Write Code
+zellij a Write Code Rustlings
+zellij a "Write Code Rustlings"
+ls
+zellin
+zellij convert-layout 
+zellij -l
+zellij -l stray
+zellij -l strayer
+zellij 
+zellij a 3
+zellij a rustlings
+exit
+zellij
+zellij a rustlings
+ls
+ddgr
+ls
+l
+sl
+l
+ls
+l
+(ls)[https://github.com]
+nvim trst.md
+rm trst.md
+l
+ls
+l
+rm -rf target/
+zellij
+nnmtui
+ls
+wlogout -b 6
+wlogout -b 5
+(ls)[https://github.com]
+(ls)
+(ls)[duckduckgo.com]
+zellij
+exit
+zellij a rustlings
+l
+ls
+zellij a rustlings
+cd zellih
+cd zellij
+tree
+alias tree = exa --tree
+tree
+nvim config.kdl 
+/usr/bin/nvim
+zellij
+exit
+checkupdates
+pacman-contrib
+which checkupdates
+which packan
+which pacman
+/usr/bin/pacman
+/usr/bin/pacman -h
+which cht.shg
+which cht.sh
+which todo
+todo list
+todo done 5
+todo done 3
+todo ls
+cd .config
+ls
+cd .local/bin
+ls
+nvim todo 
+todo\
+todo
+nvim todo 
+todo
+cd scripts/
+l
+nvim todo 
+todo
+nvim todo 
+todo
+nvim todo
+todo
+zellij a rustlings
+zellij e 
+zellij e ~/.config/nvim
+exit
+ls
+cd .config/zellij/
+ls
+nvim config.kdl 
+ls
+tree
+alias tree = exa --tree\
+tree
+alias tree = exa --tree
+tree
+ls
+nvim config.kdl 
+zellij
+nvim zellij
+ls
+zellih
+zelloj
+zellij
+zellij
+zellij
+nvim .bashrc
+$ZELLIJ
+nvim .bashrc\
+ls
+l
+nvim reminders.txt 
+67
+6
+7
+6
+676
+76
+7
+67
+6
+l
+hyprctl dispatch movewindoworgroup l
+arp-scan --localnet 
+172.16.23.142
+ip route
+hack --ip 172.16.23.142 --router 172.16.31.254
+s
+l
+cd .config/zellij
+l
+cd
+tree
+alias tree = exa --tree
+treee
+tree
+tree |wc -l
+tree
+sudo hack
+alias hack = echo "Hacked IDO "
+hac
+hack
+alias hack = echo "Hacked Ido Hever "
+hack ido
+hack 
+alias hack = echo "Hacked $2 "
+hack ido
+alias hack = echo "Hacked"
+hack ido hevef
+hack ido hever
+timedatectl disa
+timedatectl show-time
+timedatectl show-timesync 
+timedatectl status 
+timedatectl |grep Local time:
+timedatectl |rg "Local time:"
+timedatectl |rg "Local time:" |awk '{ print $3 }'
+timedatectl |rg "Local time:" |awk '{ print $4 }'
+timedatectl |rg "Local time:" |awk '{ print $5 }'
+timedatectl |rg "Local time:" |awk '{ print $5 }' | clear
+timedatectl |rg "Local time:" |awk '{ print $5 }' 
+timedatectl |rg "Local time:" |awk '{ print $5 }'
+timedatectl |rg "Local time:" |awk '{ print $5 }' 
+hack
+hack ido hever
+echo "ido "
+ls
+timedatectl |rg "Local time:" |awk '{ print $5 }' 
+while true; do timedatectl |rg "Local time:" |awk '{ print $5 }' 
+while True do timedatectl |rg "Local time:" |awk '{ print $5 }' 
+while true
+while true; do 
+while true; do; ls
+while true; do; ls; done
+ls
+arp-scan --localnet 
+cd projects/
+l
+ls
+cd rust
+ls
+tree
+cd rustlings/
+ls
+cd exercises/
+l
+zellij
+ls
+cd go/
+l
+go fmt
+cd ..
+cd lua/
+ls
+cd love/
+ls
+love .
+cd projects/
+l
+cd rust/
+ls
+cd calc-rs/
+ls
+zellij a 
+exit
+todo ls
+todo cd
+todo -v
+todo 
+todo  help
+todo  "Unknowncommand.$'\\033'[0;32mAvailablecommands.$'\\033'[0;36madd<text>$'\\033'[0m-Addanewtodo.$'\\033'[0;36mlist|ls$'\\033'[0m-Listtodos.$'\\033'[0;36mremove|rm<num|text>$'\\033'[0m-Removebylinenumberortext.$'\\033'[0;36mclean|c$'\\033'[0m-Removealltodos" 
+ls
+cd projects/c/
+ls
+cd hello/
+ls
+nvim main.c
+gcc main.c -o Pizza
+nvim main.c
+ls
+gcc main.c -o Pizza
+./Pizza
+nvim main.c 
+cd nvim
+lls
+ls
+l
+cd plugins/
+ls
+df
+df -h
+duf -h
+duf
+tree
+alias hack = echo "Hacked"
+hack
+hack ls
+hack ls ls ls ls
+ls
+nvim main.c n
+ls
+nvim lsp-config.lua 
+wget
+nvim lsp-config.lua 
+nvim main.c 
+nvim main.cpp
+gcc main.cpp -o ls
+ls
+./ls
+rm *
+which hack
+hack 
+hack
+cd c
+ls
+cd
+cd projects/c/
+;
+cd hello/
+ls
+nvim main.c
+ls
+cat main.c 
+which cat
+alias cat = bat --style=numbers
+cat main.c 
+cd .config/nus
+l
+nvim config.nu 
+ls
+zellij list-sessions 
+zellij rustlings
+zellij a rustlings
+ls
+nu -c du
+du
+cd .cacche
+cd .cache/
+l
+du
+cd
+ls
+cat main.c
+ls
+nvim main.sh 
+spawn_console 
+spawn tralalerotralla
+./scripts/spawn
+./scripts/spawn tralalerotralala
+cd scripts/
+l
+nvim spawn 
+./spawn tralalerotralala
+./spawn tralalerotralal
+./spawn tralalerotralala
+./spawn tralalerotralalal
+./spawn tralalerotralala
+rm spawn
+ls
+nvim wallpaper-change.sh 
+rofi --no-..
+rofi
+rofi-theme-selector  
+rofi-sensible-terminal 
+rofi-theme-selector 
+rofi -theme fullscreen-preview
+rofi -theme fullscreen-preview -show drun
+rofi
+rofi -h
+rofi -show calc
+rofi -show keys
+walker
+fd -H walker
+cd ../..
+fd -H walker
+cd
+i walker-bin
+l
+duf
+rm -rf go ~/.config/go ~/.cache/go-build/
+sudo rm -rf go ~/.config/go ~/.cache/go-build/
+duf
+yay -Sc
+yay -Yc
+dif
+duf
+du
+walker
+walker --gapplication-service
+nc -U /run/user/1000/walker/walker.sock
+walker --help
+walker -d
+walke
+cd hypr
+ls
+walker
+nvim hyprland.conf 
+walker
+elephant 
+yay -Rns walker-bin
+yay -S
+yay -Sc
+yay -Yc
+sudo pacman -Rns openbsd-netcat
+fd -H walker
+cd ..
+fd -H elephant
+sudo rm -rf run/user/1000/elephant/
+cd /
+fd -H walker
+ps
+cd walkers
+ls
+fd -H
+fd -H walker
+cd
+ls
+nvim hyprland.conf 
+nvim reminders.txt 
+yay -S walker-bin openbsd-netcat  elephant-desktopapplications<\n>
+s elephant
+yay -S walker-bin openbsd-netcat  elephant-all-bin<\n>
+cfg
+config
+config env
+ls
+nvim reminders.txt 
+duf
+du
+cd .cache
+du
+rm -rf thumbnails/
+cd
+fd -H
+fd -H go
+fd -H go |fzf
+fzf
+fd -H go |wc -l
+fd -H go |yazi
+$env.editor = nvim 
+$env.editor=nvim 
+$env.EDITOR ="nvim"
+duf
+explore
+ls | explore
+explore --help 
+$env.config | explore
+$env.config 
+date
+date now
+date now |lines
+date now | lines
+date now | explore
+date |explore
+explore
+$env.EDITOR = "nvim"
+$EDITOR
+EDITOR
+$env.EDITOR 
+$env.EDITOR = "/usr/bin/nvim"
+$env.EDITOR 
+yazi
+duf
+gstat
+duf
+walker
+duf
+yay -S walker-bin openbsd-netcat  elephant-desktopapplications-bin
+yay -Rns openbsd-netcat
+yay -Rns elephant-bin 
+yay -Yc
+duf
+rm -rf go ~/.config/go ~/.cache/go-build/
+sudo rm -rf go ~/.config/go ~/.cache/go-build/
+duf
+yay -Sc
+duf
+zellij 
+q
+exit
+zellij a Rust Project
+zellij lis
+zellij list-sessions 
+exit
+ls
+zellij l
+zellij ls
+zellij la
+zellij filepicker
+zellij la strider
+exit
+todo list
+todo edit
+nvim todo 
+todo edit
+ls
+nvim 
+todo list
+todo rm 3
+todo rm 5
+todo lis
+todo list
+todo rm 4
+todo list
+todo e
+nvim ~/Documents/Obsidian Vault/English work.md
+d
+cd
+nvim ~/Documents/Obsidian Vault/English \work.md
+nvim ~/Documents/Obsidian\ /Vault/English \work.md
+nvim ~/Documents/Obsidian\ /Vault/English/ \work.md
+cd `~/Documents/Obsidian Vault/English work.md`
+nvim ~/Documents/Obsidian\ /Vault/English/ \work.md
+cd Documents/
+l
+cd `Obsidian Vault/`
+ls
+sl
+todo list
+todo edit
+nvim "English work.md" 
+ls
+sl
+ls
+todo list
+cd Downloads/
+l
+rm `Scratch Project.sb3`
+cd Downloads/
+ls
+rm *
+cd `Downloads/Scratch Project.sb3`
+ls
+cd Download
+l
+rm thumb-1920-1153446.png
+nvim "Scratch Project.sb3" 
+lsblk
+udiskie
+hyprctl dispatch exit
+lsblk
+cd /run/media/divalin/ARCH_202508/
+ls
+cd ..
+lsblk
+mkfs.ext4 /dev/sda
+sudo mkfs.ext4 /dev/sda
+sudo hack ido 
+alias cat = bat --style=numbers
+nvim test.sg
+_atuin_search_cmd 
+atuin history dedup --before 1.23
+atuin history 
+atuin history  lis
+atuin history  li
+atuin history  l
+atuin history  la
+atuin history  last
+atuin scripts 
+atuin scripts new
+cd scripts/
+ls
+atuin scripts new test.sh
+atuin scripts  list 
+cd
+nvim ~/.cargo/target/
+ls
+cd projects/
+l
+cd rust/
+l
+zellij ls
+zellij list-sessions 
+sl
+ls
+zellij list-sessions 
+zellij a Rustlings
+cd
+arp-scan --localnet | save ip.txt
+nvim ip.txt 
+yazi
+du
+cat ip.txt 
+rg Apple ip.txt
+rg Apple ~/ip.txt
+rg Apple "ip.txt"
+rg "ip.txt" Apple
+rg "1" ip.txt
+rg "172" ip.txt
+rg "172." ip.txt
+rg "172.16" ip.txt
+rg "172.16" ip.txt |wc -l
+rg "172.16" ip.txt
+rg "1" ip.txt
+exitexitexit
+timeit
+timeit ls
+timeit --help
+timeit { sleep 500ms }
+open ip.txt
+ls
+nvim ip.txt 
+rg "1" ip.txt
+rg "1" 
+rg "Hello World"
+alias hack 
+alias hack = echo "Hacked"
+hack
+hack $1
+hack ;s
+hack ido
+sl
+nvim ip.txt 
+arp-scan --hrlp
+arp-scan --help
+arp-scan --R
+arp-scan -R
+arp-scan -R --localnet
+nvim 
+arp-scan  --localnet
+ls
+cd Downloads/
+l
+yazi
+ls
+cd Downloads/
+ls
+tree
+ls
+rm `Scratch Project.sb3`
+rm `Scratch Project (1).sb3`
+ls
+checkupdates
+git
+ls
+cd .config/tmux
+ls
+tree
+alias tree = exa --tree
+tree
+rm -rf scripts/
+ls
+ls `old conf/`
+nvim "old conf/bktmux.conf" 
+cd `old conf/`
+l
+mkdir omerxx
+mv * omerxx/
+ls
+tree
+cd ..
+tree
+l
+ls
+ls `old conf/`
+mkdir cd `old conf/`
+l
+ls
+rmdir cd
+ls
+cd `old conf/`
+sl
+ls
+tmux
+exit
+tmux
+exit
+tm
+alias t = tmux -u
+t
+l
+cd hypr
+ls
+nvim vars.conf 
+pkill waybar
+ls
+exit
+t
+ls
+s ratatu
+attr 
+attr category
+attr example
+attr example --help
+ls
+z
+z .c
+__zoxide_zi 
+nvi m
+ls
+cd Dowl
+todo list
+ls
+cd
+cd Dow
+l
+ls
+tree
+download
+todo 
+pacman
+pacman -
+pacman -h
+ls
+todo 
+todo help
+todo -v
+todo ls
+todo e
+todo add Finish Safrot Homework
+todo ls
+cd Obsid
+l
+nvim homework.md 
+todo ls
+todo add Do English book reporrt
+todo edit
+todo ;s
+todo ls
+ls
+cd the
+l
+cd nvim
+ls
+cd lazy-lock.jsonl
+cd lua
+l
+nvim plugins/image.lua 
+s toney
+l
+cd projects/
+l
+cd rust/
+s
+ls
+ls hello/Cargo.lock
+cd hello/
+nvim src/main.rs 
+cd ..
+rm -rf hello/
+ls
+cd variables/
+l
+nvim src/main.rs 
+cd ..
+rm -rf variables/
+sl
+ls
+cd network-tools/
+nvim src/main.rs 
+cd ..
+rm -rf network-tools/
+ls
+nvim calc-rs/src/main.rs 
+rm -rf calc-rs/
+ls
+rm -rf target/
+ls
+cd Downloads/
+ls
+yazi
+cd Downloads/
+l
+cd Obsi
+ls
+nvim EN
+nvim "English work.md" 
+ls
+tmux
+ls
+tmux list
+tmux list-sessions
+tmux a 0
+tmux a 
+exit
+nvim .bashrc
+ls

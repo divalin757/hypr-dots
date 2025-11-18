@@ -1,8 +1,6 @@
 #theme and font
 
-# theme = TokyoNight Moon 
-# theme = Catppuccin Mocha
-theme = Nightfox
+theme = TokyoNight Moon
 
 font-family = JetbrainsMono NF
 #font-family =   CaskaydiaMono NF 
@@ -12,7 +10,7 @@ font-size = 16
 confirm-close-surface = false
 
 #opacity stuff
-background-opacity = 0.5
+# background-opacity = 0.5
 unfocused-split-opacity = 1
 
 #gtk stuff
@@ -67,3 +65,4 @@ gtk-quick-terminal-layer = top
 #custom-shader = ghostty-shaders/underwater.glsl
 #custom-shader = ghostty-shaders/water.glsl
 # keybind = shift+enter=text:\x1b\r
+

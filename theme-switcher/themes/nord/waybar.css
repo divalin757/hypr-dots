@@ -1,0 +1,23 @@
+@define-color bg-workspace #2e3440;
+@define-color bg #2e3440;
+@define-color bg-alt #2e3440;
+
+@define-color gray #434c5e;
+@define-color gray-border #434c5e;
+
+@define-color workspace-active #81a1c1;
+@define-color workspace-hover #b48ead;
+
+@define-color red #bf616a;
+
+@define-color light-blue #81a1c1;
+
+@define-color green #a3be8c;
+
+@define-color orange #d08770;
+
+@define-color white #d8dee9;
+
+@define-color net-purp #b48ead;
+
+@define-color yellow #ebcb8b;

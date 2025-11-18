@@ -3,16 +3,20 @@ window {
     font-size: 10pt;
     font-weight: bold;
     color: #f4dfcd; 
-    background-color: rgba(46, 42, 30, 0.69);
+    background-image: url("/home/divalin/.config/backgrounds/fancy-cafe-blurred.jpg");
+    background-position: center;
+    background-size: cover; /* cover is better than 100% for scaling across screens */
+    background-repeat: no-repeat;
+
 }
 
 button {
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 27px;
-    background-size: 60%;
+    font-size: 16px;
+    background-size: 40%;
     border: none;
-    color: #d5b497;
+    color: #F5F5F5;
     text-shadow: none;
     border-radius: 20px 20px 20px 20px;
     background-color: rgba(121, 81, 1, 0);
@@ -22,9 +26,10 @@ button {
 }
 
 button:hover {
-    background-color: rgba(184, 149, 80, 0.3);
-    background-size: 80%;
+    background-color: #719BD6;
+    background-size: 60%;
     transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.5s ease-in;
+    color: transparent; /* makes text invisible */
 }
 
 #lock {
@@ -40,17 +45,19 @@ button:hover {
 }
 
 #suspend {
-    background-image: image(url("./icons/sleep.png"));
+    background-image: image(url("./icons/suspend.png"));
+    
 } 
 
 #shutdown {
-    background-image: image(url("./icons/power.png"));
+    background-image: image(url("./icons/shutdown.png"));
 }
 
 #reboot {
-    background-image: image(url("./icons/restart.png"));
+    background-image: image(url("./icons/reboot.png"));
 }
 
 #hibernate {
     background-image: image(url("./icons/hibernate.png"));
 }
+

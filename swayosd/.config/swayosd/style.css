@@ -1,12 +1,9 @@
-/* @import "/home/divalin/.config/swayosd/themes/tokyonight.css"; */
-/* @import "/home/divalin/.config/swayosd/themes/catppuccin.css"; */
-/* @import "/home/divalin/.config/swayosd/themes/nightfox.css"; */
 @import "/home/divalin/.config/swayosd/theme.css";
 
 
 window {
-  border-radius: 10;
-  opacity: 0.97;
+  border-radius: 0;
+  opacity: 1;
   border: 2px solid @border-color;
   background-color: @background-color;
 }
@@ -23,7 +20,7 @@ image {
 }
 
 progressbar {
-  border-radius: 0;
+  border-radius: 4;
 }
 
 progress {

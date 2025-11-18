@@ -1,6 +1,7 @@
 /* @import "/home/divalin/.config/waybar/themes/catppuccin.css"; */
 /* @import "/home/divalin/.config/waybar/themes/tokyonight.css"; */
-@import "/home/divalin/.config/waybar/themes/nightfox.css";
+/* @import "/home/divalin/.config/waybar/themes/nightfox.css"; */
+@import "/home/divalin/.config/waybar/theme.css";
 
 * {
     font-family: JetBrainsMono Nerd Font Propo;

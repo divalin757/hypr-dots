@@ -1,0 +1,7 @@
+# ~/.config/nvim/.stylua.toml
+column_width = 120
+indent_type = "Tabs"
+indent_width = 1
+quote_style = "AutoPreferDouble"
+call_parentheses = "Always"
+collapse_simple_statement = "Never"

@@ -1,3 +1,6 @@
-style = "auto"
+style = "compact"
 [theme]
-name = "catppuccin-mocha-mauve"
+# name = "tokyo-night"
+name = "nord"
+# name = "catppuccin-mocha-mauve"
+

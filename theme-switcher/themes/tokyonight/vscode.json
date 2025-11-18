@@ -28,5 +28,6 @@
        "/home/divalin/projects/rust/variables/Cargo.toml",
        "/home/divalin/projects/rust/gueesing_game/Cargo.toml",
        "/home/divalin/projects/rust/network-tools/Cargo.toml",
-  ]
+  ],
+  "workbench.statusBar.visible": false
 }

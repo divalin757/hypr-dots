@@ -2,22 +2,21 @@
 
 
 themes="
-nightfox\ncatppuccin\ntokyonight\n
+nightfox\ncatppuccin\ntokyonight\nnord\n
 "
 
 selected=$(echo -e $themes | rofi -dmenu -p "choose a theme")
 
+
+get_help() {
+echo -e "hello"
+}
 
 switch_waybar() {
    rm ~/.config/waybar/theme.css
    cp -r ~/.config/theme-switcher/themes/$selected/waybar.css ~/.config/waybar/theme.css
    pkill -9 waybar
    waybar & disown
-}
-
-switch_ghostty() {
-  rm ~/.config/ghostty/config
-  cp -r ~/.config/theme-switcher/themes/$selected/ghostty ~/.config/ghostty/config
 }
 
 switch_swaync() {
@@ -137,12 +136,10 @@ switch_hyprlock() {
 }
 
 
-
 switch_nvim() {
   rm ~/.config/nvim/lua/plugins/colorschemes.lua
   cp -r ~/.config/theme-switcher/themes/$selected/nvim.lua ~/.config/nvim/lua/plugins/colorschemes.lua
 }
-
 
 
 if [[ $selected == "nightfox" ]]; then 
@@ -157,7 +154,8 @@ if [[ $selected == "nightfox" ]]; then
   restart_gtk4_apps
   switch_nvim
   switch_gtk
-  notify-send "switched theme to nightfox"
+  notify-send "Theme changed" "current theme nightfox"
+  echo "~/.config/theme-switcher/themes/nightfox/backgrounds" >> ~/.config/theme-switcher/current-wall.txt
 
 
 
@@ -165,6 +163,7 @@ elif [[ $selected == "catppuccin" ]]; then
   switch_waybar
   switch_kitty
   switch_swaync
+  switch_swayosd
   switch_rofi
   switch_vscode
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/wallpaper23.png
@@ -172,7 +171,8 @@ elif [[ $selected == "catppuccin" ]]; then
   switch_hyprlock
   restart_gtk4_apps
   switch_nvim
-  notify-send "switched theme to catppuccin"
+  notify-send "Theme changed" "current theme catppuccin"
+  echo "~/.config/theme-switcher/themes/catppuccin/backgrounds" >> ~/.config/theme-switcher/current-wall.txt
 
 
 
@@ -180,6 +180,7 @@ elif [[ $selected == "tokyonight" ]]; then
   switch_waybar 
   switch_ghostty
   switch_swaync
+  switch_swayosd
   switch_rofi
   switch_vscode
   switch_hyprlock
@@ -188,6 +189,32 @@ elif [[ $selected == "tokyonight" ]]; then
   switch_gtk
   restart_gtk4_apps
   switch_kitty
-  notify-send "switched theme to tokyonight"
+  notify-send "Theme changed" "current theme tokyonight"
+  echo "~/.config/theme-switcher/themes/tokyonight/backgrounds" >> ~/.config/theme-switcher/current-wall.txt
+
+elif [[ $selected == "nord" ]]; then
+  switch_waybar 
+  switch_ghostty
+  switch_swaync
+  switch_swayosd
+  switch_rofi
+  switch_vscode
+  switch_hyprlock
+  switch_nvim
+  swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/1-nord.png
+  switch_gtk
+  restart_gtk4_apps
+  switch_kitty
+  notify-send "Theme changed" "current theme nord"
+  echo "~/.config/theme-switcher/themes/nord/backgrounds" >> ~/.config/theme-switcher/current-wall.txt
+
 fi
 
+case "$1" in
+  "--help")
+    get_help
+    ;;
+  *)
+    echo "no arg"
+    ;;
+esac
