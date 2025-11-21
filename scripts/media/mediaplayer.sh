@@ -8,8 +8,7 @@ artist=$(playerctl metadata artist 2>/dev/null)
 status=$(playerctl status 2>/dev/null)
 
 if [[ "$status" == "Playing" || "$status" == "Paused" ]]; then
-    echo "   $artist - $title"
+  echo "   $artist - $title"
 else
-    echo "  __"
+  echo "   no media playing"
 fi
-

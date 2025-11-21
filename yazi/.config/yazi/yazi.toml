@@ -1,0 +1,7 @@
+[mgr]
+show_hidden = false
+
+[tasks]
+image_bound = [7680, 4320]
+
+

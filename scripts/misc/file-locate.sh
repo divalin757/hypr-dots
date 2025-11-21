@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 BLACK='\033[0;30m'
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -46,4 +45,14 @@ BOLD_BRIGHT_WHITE='\033[1;97m'
 
 # Reset Code
 RESET='\033[0m'
+
+
+FIND_CMD="fd -H "
+
+echo -e $BLUE"Type The file Name you want to search for  "$RESET
+read inp
+
+file=$($FIND_CMD $inp )
+
+
 

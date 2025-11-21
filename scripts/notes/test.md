@@ -1,0 +1,20 @@
+- [ ] to-do
+- [/] incomplete
+- [x] done
+- [-] canceled
+- [f] forwarded
+- [<] scheduling
+- [?] question
+- [!] important
+- [*] star
+- ["] quote
+- [l] location
+- [b] bookmark 
+- [i] information
+- [S] savings
+- [z] idea
+- [p] pros
+- [c] cons
+- [u] up
+- [d] down
+

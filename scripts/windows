@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+
+get_help() {
+   echo -e "Usage:
+-a - add a todo
+-h - show this message 
+  "
+}
+
+case "$1" in
+  -h|--help)
+     get_help
+    ;;
+  -a|add)
+    ls
+    ;;
+  *)
+    echo "No arguments passed run -h for more info"
+    ;;
+esac

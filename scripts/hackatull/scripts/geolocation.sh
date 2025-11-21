@@ -5,7 +5,7 @@ read ip
 
 # Fetch the JSON data and format it with colors, plus a Google Maps link
 curl -s https://ipinfo.io/$ip/json | jq -r '
-  .hostname, .ip, .city, .region, .country, .loc, .org' | \
+  .hostname, .ip, .city, .region, .country, .loc, .org' |
   awk '
     BEGIN {
       # Set color codes

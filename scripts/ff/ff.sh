@@ -47,12 +47,14 @@ RESET='\033[0m'
 cpumodel() {
   cat /proc/cpuinfo | grep 'model name' | uniq | cut -d ' ' -f3-
 }
-uptime(){ 
+uptime() {
   uptime -p | cut -d ' ' -f2-
 }
-shell() { 
-  sh=$(echo $SHELL)
-  basename $sh
+shell() {
+  # sh=$(echo $SHELL)
+  # basename $sh
+  cat /proc/$$/comm
+
 }
 wm() {
   echo $DESKTOP_SESSION
@@ -73,18 +75,8 @@ ram() {
   free -m | awk 'NR==2{printf "%s / %sMB (%.2f%%)\n", $3,$2,$3*100/$2 }'
 }
 os() {
-  hostnamectl |grep Operating |cut -d ' ' -f4-
+  hostnamectl | grep Operating | cut -d ' ' -f4-
 }
-#cpumod=$(cpumodel)
-#uptim=$(uptime)
-#shel=$(shell)
-#de=$(wm)
-#ker=$(kernel)
-#user=$(usr)
-#hostname=$(hname)
-#terminal=$(term)
-#mem=$(ram)
-#operatingsys=$(os)
 
 echo -e $BLUE$(os)$RESET
 echo -e $RED$(wm)$RESET
