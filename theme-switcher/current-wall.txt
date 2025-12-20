@@ -1,17 +1,1 @@
-~/.config/theme-switcher/themes/catppuccin/backgrounds
-~/.config/theme-switcher/themes/nord/backgrounds
-~/.config/theme-switcher/themes/nord/backgrounds
-~/.config/theme-switcher/themes/nightfox/backgrounds
-~/.config/theme-switcher/themes/nord/backgrounds
-~/.config/theme-switcher/themes/nord/backgrounds
-~/.config/theme-switcher/themes/nord/backgrounds
-~/.config/theme-switcher/themes/tokyonight/backgrounds
-~/.config/theme-switcher/themes/tokyonight/backgrounds
-~/.config/theme-switcher/themes/catppuccin/backgrounds
-~/.config/theme-switcher/themes/nightfox/backgrounds
-~/.config/theme-switcher/themes/tokyonight/backgrounds
-~/.config/theme-switcher/themes/catppuccin/backgrounds
-~/.config/theme-switcher/themes/tokyonight/backgrounds
-~/.config/theme-switcher/themes/catppuccin/backgrounds
-~/.config/theme-switcher/themes/tokyonight/backgrounds
 ~/.config/theme-switcher/themes/tokyonight/backgrounds

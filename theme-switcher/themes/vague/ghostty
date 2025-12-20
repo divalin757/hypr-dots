@@ -1,6 +1,7 @@
 #theme and font
 
-theme = Vague 
+theme = Vague
+
 font-family = JetbrainsMono NF
 #font-family =   CaskaydiaMono NF 
 font-size = 16
@@ -9,7 +10,7 @@ font-size = 16
 confirm-close-surface = false
 
 #opacity stuff
-# background-opacity = 0.5
+background-opacity = 0.5
 unfocused-split-opacity = 1
 
 #gtk stuff

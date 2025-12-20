@@ -2,14 +2,20 @@
 
 
 themes="
-nightfox\ncatppuccin\ntokyonight\nnord\n
+nightfox\ncatppuccin\ntokyonight\nnord\nvague\n
 "
 
 selected=$(echo -e $themes | rofi -dmenu -p "choose a theme")
 
 
 get_help() {
-echo -e "hello"
+  echo -e "Hello world in cpp"
+}
+
+switch_tmux() {
+  rm ~/.config/tmux.conf
+  mv ~/.config/theme-switcher/themes/$selected/tmux.conf
+  tmux source-file ~/.config/tmux/tmux.conf
 }
 
 switch_waybar() {
@@ -37,11 +43,6 @@ switch_swayosd() {
 switch_rofi() {
   rm ~/.config/rofi/theme.rasi
   cp -r ~/.config/theme-switcher/themes/$selected/rofi.rasi ~/.config/rofi/theme.rasi
-}
-
-switch_vscode() {
-  rm ~/.config/VSCodium/User/settings.json
-  cp -r ~/.config/theme-switcher/themes/$selected/vscode.json ~/.config/VSCodium/User/settings.json
 }
 
 switch_kitty() {
@@ -149,7 +150,6 @@ if [[ $selected == "nightfox" ]]; then
   switch_swayosd
   switch_rofi
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/fancy-cafe-upscaled.jpg
-  switch_vscode
   switch_hyprlock
   restart_gtk4_apps
   switch_nvim
@@ -165,7 +165,6 @@ elif [[ $selected == "catppuccin" ]]; then
   switch_swaync
   switch_swayosd
   switch_rofi
-  switch_vscode
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/wallpaper23.png
   switch_gtk
   switch_hyprlock
@@ -182,7 +181,6 @@ elif [[ $selected == "tokyonight" ]]; then
   switch_swaync
   switch_swayosd
   switch_rofi
-  switch_vscode
   switch_hyprlock
   switch_nvim
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/wallpaper21.jpg
@@ -198,7 +196,6 @@ elif [[ $selected == "nord" ]]; then
   switch_swaync
   switch_swayosd
   switch_rofi
-  switch_vscode
   switch_hyprlock
   switch_nvim
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/1-nord.png
@@ -208,7 +205,20 @@ elif [[ $selected == "nord" ]]; then
   notify-send "Theme changed" "current theme nord"
   echo "~/.config/theme-switcher/themes/nord/backgrounds" >> ~/.config/theme-switcher/current-wall.txt
 
+elif [[ $selected == "vague" ]]; then
+  switch_waybar 
+  switch_swaync
+  switch_swayosd
+  switch_rofi
+  switch_hyprlock
+  switch_nvim
+  swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/3d-tech.jpg
+  switch_kitty
+  notify-send "Theme changed" "current theme $selected"
+
 fi
+
+
 
 case "$1" in
   "--help")

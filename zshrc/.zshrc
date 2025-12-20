@@ -1,38 +1,7 @@
-eval "$(starship init zsh)"
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
-
-
-# export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
-#   --highlight-line \
-#   --info=inline-right \
-#   --ansi \
-#   --border=rounded \
-#   --margin=3%
-#   --layout=reverse \
-#   --color=bg+:#2e3c64 \
-#   --color=bg:#1E1E2E \
-#   --color=border:#89B4FA \
-#   --color=fg:#c0caf5 \
-#   --color=gutter:#1E1E2E \
-#   --color=header:#FAB387 \
-#   --color=hl+:#89B4FA \
-#   --color=hl:#2ac3de \
-#   --color=info:#545c7e \
-#   --color=marker:#ff007c \
-#   --color=pointer:#ff007c \
-#   --color=prompt:#89B4FA \
-#   --color=query:#c0caf5:regular \
-#   --color=scrollbar:#89B4FA \
-#   --color=separator:#FAB387 \
-#   --color=spinner:#F08AA7 \
-# "
-#
-
-
 
 export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'"
 export GEMINI_CLI_FLAGS='--no-telemetry-no-telemetry-log-prompts'
-
 
 if [ ! -d "$ZINIT_HOME" ]; then
    mkdir -p "$(dirname $ZINIT_HOME)"
@@ -46,11 +15,11 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
-#zinit snippet OMZL::git.zsh
-#zinit snippet OMZP::git
-#zinit snippet OMZP::sudo
-#zinit snippet OMZP::archlinux
-#zinit snippet OMZP::command-not-found
+zinit snippet OMZL::git.zsh
+zinit snippet OMZP::git
+zinit snippet OMZP::sudo
+zinit snippet OMZP::archlinux
+zinit snippet OMZP::command-not-found
 
 autoload -Uz compinit && compinit
 
@@ -80,39 +49,63 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
+# shorten some stuff
 alias v='nvim'
 alias ff='fastfetch'
 alias tt='typioca'
 alias c='clear'
+# replace cat with bat
 alias cat='bat'
+# ls aliases
 alias lm='eza --color=always -l --icons --no-user --no-permissions --no-time --no-filesize'
-alias ls=' eza -la --icons --no-time --no-filesize   --group-directories-first '
-alias l=' eza -la --icons --no-time --no-filesize   --group-directories-first '
+alias ls=' eza -lh --icons  --color=always --group-directories-first '
+alias l=' eza -lh --icons=always --color=always  --group-directories-first '
 alias tree='eza --color=always -l --icons --no-user --no-permissions --no-time --no-filesize --tree'
+alias la='ls -a'
+# add some nushell ls stuff
 alias nuls='nu -c "ls" '
 alias nups='nu -c "ps" '
-alias la='ls -a'
+# yay aliases
 alias s='yay -Ss'
 alias i='yay -S'
 alias r='yay -Rns' 
+# fetch
 alias mfetch=' mfetch  --os --kernel --shell --uptime --wm --colors'
-
+# waybar themes
+alias omwaybar='pkill waybar; waybar -c ~/.config/waybar/themes/omarchy-waybar/config.jsonc -s ~/.config/waybar/themes/omarchy-waybar/style.css & disown'
+alias tonybar='pkill waybar; waybar -c ~/.config/waybar/themes/tonybar/config.jsonc -s ~/.config/waybar/themes/tonybar/style.css & disown'
+# atuin scripts
+alias asr='atuin scripts run'
+alias asn='atuin scripts new'
+alias asl='atuin scripts list'
+alias asd='atuin scripts delete'
+# make diff nicer
+alias diff="diff -u --color=always"
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+# alias cd="__zoxide_z"
+alias cdi="__zoxide_zi"
 
 export PATH="$HOME/scripts:$PATH"
 set -o vi
-# eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow )"
 
 function cx() {
     cd "$1"
     ls
 }
-#colorscript random
+#
 stty ixany
-bindkey -M viins 'jj' vi-cmd-mode
-bindkey -M vicmd 'q' clear-screen
+
+source ~/.local/bin/comps/todo-comp.sh
 
 export PATH="$HOME/.local/bin:$PATH"
-export FZF_DEFAULT_OPTS="--ansi --reverse --height=10"
+export FZF_DEFAULT_OPTS="--ansi --reverse"
+export EDITOR=nvim
+
+eval "$(oh-my-posh init zsh --config $HOME/.config/omp.toml)"
+
+# cd $(fd --type directory -H . /home/divalin | sed 's|^/home/divalin/||' | fzf --color="bw")
+
+
