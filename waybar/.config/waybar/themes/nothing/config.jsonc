@@ -1,0 +1,117 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "spacing": 10, // Gaps between modules (4px)
+    "modules-left": [
+        "custom/arch",
+        "clock",
+        "custom/pkgs"
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "battery",
+        "custom/notification",
+        "custom/power",
+    ],
+    "hyprland/workspaces": {
+      "persistent-workspaces": {
+             "*": 5, // 5 workspaces by default on every monitor
+       }
+     },
+    "custom/arch": {
+       "format": " ",
+       "on-click": "rofi -show drun",
+    },
+  "custom/powerdaemon": {
+     "format": "{icon}",
+     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+     "tooltip": true,
+     "format-icons": {
+       "default": "",
+       "performance": "",
+       "balanced": "",
+       "power-saver": ""
+   }
+  },
+
+	"custom/notification": {
+      "tooltip": false,
+      "format": "{icon}",
+      "format-icons": {
+        "notification": "<span foreground='red'><sup></sup></span>",
+        "none": "",
+        "dnd-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-none": "",
+        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "inhibited-none": "",
+        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+    "custom/pkgs": {
+       "format": "    {}",
+			 "interval": "once",
+			 "exec": "checkupdates |wc -l",
+			 "on-click": "ghostty -e yay -Syu",
+			 "signal": "8",
+			 "tooltip-format": "{} updates available"
+     },
+   "clock": {
+    "interval": 1,
+    "format": "󰥔  {:%H:%M %p}",
+    "tooltip": false,
+  },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-full": "{icon} {capacity}% ",
+        "format-charging": "  {capacity}% ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["󰁺", "󰁻", "󰁽", "󰂀", "󰂂"]
+    },
+    "network": {
+        "format-wifi": "󰤥   {essid} ",
+        "format-disconnected": "Disconnected 󰤯 ",
+        "on-click": "kitty -e nmtui"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "  ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
+            "default": ["  ", "  ", "  "]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/power": {
+        "format" : "⏻",
+		"tooltip": false,
+        "on-click": "wlogout -b 5"
+    }
+}

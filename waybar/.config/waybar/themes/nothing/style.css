@@ -1,0 +1,203 @@
+@import "/home/divalin/.config/waybar/themes/nothing/theme.css";
+
+* {
+    font-family: JetBrainsMono Nerd Font Propo;
+    font-size: 14px;
+}
+
+window#waybar {
+    /* background-color: @bg; */
+    background-color: transparent;
+}
+
+/* Container bar */
+#workspaces {
+  background-color: @bg-workspace;
+  border-radius: 14px;
+  padding: 6px 10px;
+  border: 0px solid @gray-border;
+  border-radius: 6px;
+  margin: 6px;
+}
+
+/* Inactive buttons (shorter, wider) */
+#workspaces button {
+  background-color: @gray;
+  color: transparent;
+  min-width: 20px;
+  min-height: 12px;
+  border-radius: 9999px;
+  font-size: 0;
+  padding: 0 8px;
+  transition: all 0.1s ease-in-out;
+}
+
+#workspaces button:not(:last-child) {
+  margin-right: 6px;
+
+
+}
+
+/* Active button (a bit wider) */
+#workspaces button.active {
+  background-color: @workspace-active;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  min-width: 42px;
+  padding: 1px 10px;
+  border-radius: 7px;
+}
+
+#workspaces button:hover {
+  background-color: @gray0;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  min-width: 42px;
+  padding: 1px 10px;
+  border-radius: 7px;
+}
+
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#mpd {
+    padding: 0 10px;
+    margin: 8 0px;
+    border-radius: 6px;
+}
+
+
+#clock {
+    background-color: @bg;
+    color: @red;
+    border-radius: 6px;
+    font-family: Ndot57;
+    font-size: 14;
+}
+
+#custom-notification {
+    background-color: @bg;
+    color: @red;
+    padding: 0 10px;
+    margin: 8 2px;
+    border-radius: 6px;
+    font-family: Ndot57;
+}
+
+
+
+#custom-power {
+    background-color: @bg;
+    color: @red;
+    padding: 0 10px;
+    margin: 8 2px;
+    border-radius: 6px;
+    font-family: Ndot57;
+
+}
+
+#custom-media {
+    background-color: @bg;
+    color: @green;
+    padding: 0 10px;
+    margin: 8 2px;
+    border-radius: 6px;
+    font-family: Ndot57;
+
+}
+
+
+
+#custom-pkgs {
+    background-color: @bg;
+    color: @fg;  /* Example color */
+    padding: 0 10px;
+    margin: 8 0px;
+    border-radius: 6px;
+    font-family: Ndot57;
+}
+
+
+#custom-arch {
+    background-color: @bg;
+    color: @white;
+    padding: 0 10px;
+    border-radius: 6px;
+    margin: 8 2px;
+    font-family: Ndot57;
+}
+#battery {
+    background-color: @bg;
+    color: @green;
+    font-family: Ndot57;
+}
+
+#battery.charging, #battery.plugged {
+    color: @fg;
+    background-color: @bg;
+    font-family: Ndot57;
+    border-radius: 6px;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: @bg;
+    color: @red;
+    border-radius: 6px;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: Ndot57;
+}
+
+
+label:focus {
+    background-color: #000000;
+    font-family: Ndot57;
+    border-radius: 6px;
+}
+#network {
+    background-color: @bg;
+    color: @red;
+    border-radius: 6px;
+    font-family: Ndot57;
+}
+
+#network.disconnected {
+    background-color: @bg;
+    color: @fg;
+    border-radius: 6px;
+    font-family: Ndot57;
+}
+
+#pulseaudio {
+    background-color: @bg;
+    color: @fg;
+    border-radius: 6px;
+    font-family: Ndot57;
+}
+
+#pulseaudio.muted {
+    background-color: @bg;
+    color: @red;
+    border-radius: 6px;
+    font-family: Ndot57;
+}

@@ -1,0 +1,25 @@
+@define-color bg-workspace #1B1B1D;
+@define-color bg #1B1B1D;
+@define-color bg-alt #1B1B1D;
+@define-color fg #FEFEFE;
+@define-color gray0 #C8C8C8;
+
+@define-color gray #252530;
+@define-color gray-border #252530;
+
+@define-color workspace-active #D71A21;
+@define-color workspace-hover #6e94b2;
+
+@define-color red #D71A21;
+
+@define-color light-blue #8ba9c1;
+
+@define-color green #99b782;
+
+@define-color orange #f3be7c;
+
+@define-color white #cdcdcd;
+
+@define-color net-purp #bb9dbd;
+
+@define-color yellow #f5cb96;

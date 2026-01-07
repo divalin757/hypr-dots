@@ -2771,3 +2771,779 @@ tmux a
 exit
 nvim .bashrc
 ls
+cd git
+ls
+cd hypr-dots/
+gitleaks detect
+git clone https://github.com/divalin757/hypr-dots.git
+cd hypr-dots/
+l
+tree
+alias tree = exa --tree
+tree
+ls
+cd tmux/.config/tmux/
+l
+ls -a
+ls `old conf/`
+nvim tmux.conf 
+ls
+cd ..
+cd
+rm -rf hypr-dots/
+gitleaks]
+gitleaks detect
+ls
+cd projects/rust/
+l
+cd rustlings/
+gitleaks detect
+cd ..
+mkdir test
+cd test/
+ls
+git init
+ls
+ls -a
+nvim test.sh
+gitleaks detect
+nvim \
+nvim test.sh 
+git add test.sh
+gitleaks detect
+ls
+git ls
+git 
+git commit -m "Hello"
+ls
+gitleaks detect
+nvim test.sh 
+cat *
+ls
+git leaks
+gitleaks detect
+cat *
+git leaks
+gitleaks detect
+ls
+nvim test.sh 
+cd ..
+git clone https://github.com/divalin757/hypr-dots.git
+cd hypr-dots/
+gitleaks detect
+cd ..
+ls
+rm -rf hypr-dots/ test
+ls
+mkdir gtl-test && cd gtl-test<\n>git init<\n>
+mkdir gtl-test ; cd gtl-test<\n>git init<\n>
+ls
+ls -a
+cd ..
+ls
+cd gtl-test/
+s
+ls
+echo "password = 'supersecret123'" > test.txt<\n>git add test.txt<\n>git commit -m "test secret"<\n>
+echo "password = 'supersecret123'" |save test.txt;<\n>git add test.txt<\n>git commit -m "test secret"<\n>
+lsl
+ls
+gitleaks detect
+ls
+nvim test.txt 
+gitleaks detect
+gitleaks detect --verbose --log-level=debug<\n>
+git add .
+ls
+git commit -m "Commiting a secret"
+ls
+gitleaks detect --verbose --log-level=debug<\n>
+nvim test.txt 
+gitleaks detect --verbose --log-level=debug<\n>
+git add .
+git commit -m "Commiting a secret"
+gitleaks detect --verbose --log-level=debug<\n>
+cd ..
+rm -rf gtl-test/
+git clone https://github.com/divalin757/hypr-dots.git
+cd hypr-dots/
+git add .
+git commit -m "Commiting a secret"
+gitleaks detect --verbose --log-level=debug<\n>
+cd ..
+rm -rf hypr-dots/
+gitleaks detect --no-git
+cd rustlings/
+sl
+alias gl = gitleaks detect
+gl
+ls
+git 
+l
+nvim cmd.exe 
+acpi
+nvim reminders.txt 
+smassh
+kitten themes 
+ls
+pkill waybar
+pkill swww
+ls
+acpi
+acpi |grep Charging
+acpi |rg Charging
+acpi |rg Charging, 
+acpi |rg Charging, 50
+acpi |awk '{ print $5 }'
+acpi |awk '{ print $4 }'
+acpi |awk '{ print $4 }'; clear
+clear; acpi |awk '{ print $4 }'
+while true do; clear; acpi |awk '{ print $4 }'
+acpi
+pkill hypridle
+acpi
+ls
+tmux a 
+tmux list-sessions
+tmux
+df
+df -h
+udf
+duf
+tmux 
+qalc 12 ILS to USD
+sleep 20min; notify-send "DONE"
+./scripts/cl
+yay -Qu
+sudo hack ido
+nvim 
+log
+journalctl 
+upower -i /org/freedesktop/UPower/devices/battery_BAT0<\n>
+ls
+zsh
+bash
+nvim reminders.txt 
+cd .config/niri
+l
+nvim config.kdl 
+cd .config/niri
+l
+nvim config.kdl 
+cd niri
+l
+nvim 
+sl
+ls
+exit
+yazi
+sudo pacman -R yazi
+exit
+sl
+yazi
+ls
+cd ~/.config/yazi
+ls
+nvim init.lua 
+nvim package.toml 
+rm -rf *
+ls
+yazi
+s
+ls
+zsh
+l
+cd yazi
+l
+ffmpeg
+sudo pacman -S 7zip
+jq
+poppler
+sudo pacman -S poppler
+fd
+rg
+fzf
+yazi -v
+yazi --v
+yazi --version
+fzf --version
+nvim ~/reminders.txt 
+nvim reminders.txt 
+sudo pacman -S resvg
+fd -H .pdf
+fd -H .zip
+ls
+cd Downloads/
+l
+yazi
+$env.EDITOR = nvim
+$env.EDITOR = ^nvim
+ls
+yazi
+cd yazi
+l
+nvim y
+duf
+cd .cache
+l
+cd thumbnails/
+ls
+tree
+alias tree = exa --tree
+tree
+cd ..
+rm -rf thumbnails/
+nvim yazi.toml 
+cd
+fd -H .m
+fd -H .mp
+fd -H .mp3
+fd -H .mp4
+yazi
+l
+ls
+yazi
+nvim yazi.toml 
+yazi
+s rich-cli
+yay -S rich-cli
+yazi
+cd kit
+l
+nvim kitty.conf 
+cd hype
+cd hypr
+ls
+glow vars.conf
+nvim vars.conf 
+cd zellij
+l
+nvim co
+nvim config.kdl 
+ls
+exit
+du
+nvim reminders.txt 
+sudo pacman -S dust
+dust
+duf
+dust
+du
+cd .local/
+l
+du
+cd share/
+l
+dust
+du
+cd gnome-boxes/
+duf
+rm -rf images/
+ls
+duf
+cd
+ls
+cd
+dust
+yay -Sc
+duf
+yay -Yc
+duf
+pacman -Qtd
+ls
+du
+rm -rf go
+sudo rm -rf go
+ls
+fd -H .norg
+nvim .local/share/nvim/lazy/pathlib.nvim/README.norg
+duf
+du
+cd projects/
+ls
+du
+cd rust/
+du
+cd rustlings/
+du
+cd target/
+l
+cd rust-analyzer/
+l
+cd flycheck0/
+l
+du
+cd ..
+du
+cd ..
+du
+cd debug/
+l
+du
+cd ..
+cd rustlings/
+cargo clean
+cd ...
+rm -rf rust/rustlings/
+l
+duf
+cd
+du
+cd .cache
+du
+dust
+du
+rm -rf go-build/
+du
+cd yay
+ls
+du
+cd elephant-bin/
+ls
+du
+cd src/
+l
+cd
+duf
+du
+cd .local/
+du
+cd share/
+du
+rm -rf baloo/
+rm -rf backgrounds/
+cd
+eg
+rg
+ls
+ping 192,168.1.1
+ping  google.com
+1720 / 2.5
+exit
+du
+cd .cache
+ls
+duf
+du
+yay -Rns brave-bin
+rm -rf BraveSoftware/
+duf
+cd
+fd -H Brave
+rm -rf .config/BraveSoftware/
+fd -H Brave
+./
+duf
+du
+yay -Sc
+duf
+du
+cd projects/
+l
+du
+cd rust/
+l
+du
+cd Tutorial/
+l
+nvim src/main.rs 
+cargo clean
+cd ..
+sl
+cd rustlings/
+l
+du
+cargo clean
+duf
+cd ..
+ls
+cd ..
+ls
+duf
+cd
+du
+l
+duf
+du
+cd share/
+l
+duf
+du
+rm -rf backgrounds
+du
+rm -rf  ballo
+ls
+rm -rf lf
+lf
+cd color-schemes/
+l
+nvim AcrilicDark.colors 
+ls
+cd
+ls
+l
+timedatectl |rg "Local time:" |awk '{ print $5 }' 
+sleep 14; notify-send "Lesson over"
+sleep 14min; notify-send "Lesson over"
+systemctl suspend
+du
+cd .cache
+ls
+du
+yay -Sc
+duf
+du
+rm ~/Downloads/archlinux-x86_64.iso
+duf
+cd
+banner 
+banner --help
+banner --short
+banner
+sudo
+exit
+spt
+exit
+exit
+exit
+_atuin_search_cmd 
+with-env { ATUIN_LOG: error, ATUIN_QUERY: (commandline), ATUIN_SHELL: nu } {<\n>let output = (run-external atuin search "--interactive" e>| str trim)<\n>if ($output | str starts-with "__atuin_accept__:") {<\n>commandline edit --accept ($output | str replace "__atuin_accept__:" "")<\n>} else {<\n>commandline edit $output<\n>}<\n>}
+clock.sh 
+banner 
+banner --short
+cd projects/
+l
+cd go
+l
+nvim 
+l
+cd ..
+ls
+mkdir website
+cd website/
+l
+nvim 
+ls
+nvim index.html 
+zi 
+zi
+fzf
+./diff/main.c
+gcc diff/main.c 
+ls
+./a.out
+./a.out args/main.c a.out
+ls
+rm a.out
+exit
+ls
+exit
+ls
+cd .cache
+du
+todo
+todo help
+todo ls
+todo delete 4
+todo remove 4
+todo ls
+cd .lo
+cd bin
+l
+whoami 
+whoami | lines
+^ls
+^todo 
+^todo help
+^todo help -i
+^todo -i
+ls
+todo
+todo help
+todo checkhealth
+ls
+du
+cd target/
+;
+l
+du
+cd de
+cd -
+cd debug/
+du
+cp -r todust ~/todust
+cd
+./todust
+ls
+rm todust todust-config.toml
+cd .config/
+l
+cd
+cd projects/
+l
+cd ru
+cd todust/
+ls
+./todust
+./target/debug/todust
+./target/debug/todust --help
+./target/debug/todust add
+./target/debug/todust add --help
+./target/debug/todust add "Hello world" -d 25/12/2025
+./target/debug/todust lisr
+./target/debug/todust list
+nvim src/main.rs 
+ls
+cd .config
+l
+cd todust/
+l
+nvim todos.json 
+cd -
+l
+cd
+cd pro
+l
+cd rust/
+l
+cd todust/
+./target/debug/todust list
+./target/debug/todust 
+s
+ls
+./target/debug/todust 
+cx
+cx src/
+l
+nvim main.rs 
+codium --help
+codium -d main.rs main.rs 
+ud
+du
+cd .npm
+l
+du
+cd _cacache/
+du
+cd co
+cd -
+ls
+cd content-v2/
+l
+du
+cd sha512/
+l
+du
+c
+ls
+cd
+du
+cd projects/
+l
+du
+cd eu
+cd rust/
+du
+cd rustlings/
+l
+du
+cargo clean
+cd ..
+rm -rf rustlings/
+ls
+cd
+du
+c .local/
+l
+du
+clear --help
+du
+cd .local/
+du
+cd share/
+du
+du |select opencod
+du |select 
+du |select path
+du |select path |select 50
+du |select 38
+cd opencode/
+l
+du
+cd bin
+cd ..
+cd storage/
+l
+du
+cd todo
+du
+nvim ses_4d33eb860ffeS7F5XeXZtYnJwy.json 
+sleep 2min; notify-send "done"
+notify-send "שיעורי בית הם דעמו 67"\
+notify-send "שיעורי בית הם דעמו 67"
+swaync-client 
+swaync
+poweroff 
+du
+cd .npm/
+l
+du
+cd _cacache/
+l
+du
+cd content-v2/
+du
+rm -rf sha512/
+cd
+npm
+ls
+du
+duf
+cd .bun
+du
+cd bin
+du
+ls
+bunx
+exit
+nu
+exit
+ls
+nvim 
+ls
+ollama
+du
+cd .config/
+du
+cd coc
+du
+ls
+tree
+exa -T
+./extensions/coc-rust-analyzer-data/rust-analyzer
+./extensions/coc-rust-analyzer-data/rust-analyzer --help
+cls
+exa -T
+21 + 12
+curl https://dummyjson.com/products/1  |jq -r
+curl https://dummyjson.com/products/1  |from json
+ls
+curl https://dummyjson.com/products/1  |from toml 
+curl https://dummyjson.com/products/1  |from json 
+curl https://dummyjson.com/products/1  |_atuin_search_cmd 
+_atuin_search_cmd 
+_atuin_search_cmd  |nu
+# af6df49c-e6c0-447e-bd10-7f1b49fe37e9<\n>with-env { ATUIN_LOG: error, ATUIN_QUERY: (commandline), ATUIN_SHELL: nu } {<\n>let output = (run-external atuin search "--interactive" e>| str trim)<\n>if ($output | str starts-with "__atuin_accept__:") {<\n>commandline edit --accept ($output | str replace "__atuin_accept__:" "")<\n>} else {<\n>commandline edit $output<\n>}<\n>}
+commandline 
+commandline  edit Hello
+ls
+du
+cd in
+cd -
+cd install/
+l
+du
+cd global/
+ud
+du
+cd node_modules/
+du
+cd .local/
+l
+du
+cd share/
+du
+cd .cargo
+du
+yay -Sc
+duf
+yay -Sc
+sudo rm /var/cache/pacman/pkg/download-ToIe8u
+sudo rm =rf /var/cache/pacman/pkg/download-ToIe8u
+sudo rm -rf /var/cache/pacman/pkg/download-ToIe8u
+sesh
+sesh list
+cd .cache/
+du
+cd
+sesh list
+sesh ~
+sesh 
+du
+yay -Sc
+du
+duf
+cd .cache
+du
+rm -rf  go-build/
+du
+rm notes.txt neofetch.txt
+du
+rm -rf pip
+rm -rf tui-journal/
+rm -rf typescript/ Microsoft/
+ls
+du
+rm -rf thumbnails/
+tldr ls
+ls
+du
+duf
+c
+cd
+du
+cd .local/
+l
+du
+cd share/
+ud
+du
+cd .npm
+l
+du
+cd _cacache/
+l
+du
+cd content-v2/
+l
+du
+cd sha512/
+du
+cd ..
+cd ../..
+rm - rf .npm
+rm -rf .npm
+ls
+duf
+nvim .claude.json 
+claude
+claude --help
+du
+cd monkeytype/
+ls
+pnpm
+pnpm install
+nvm install
+exit
+du
+cd share/
+du
+cd pnpm/
+l
+du
+exit
+int
+input
+input Hello
+input >>> 
+input ">>> "
+while true; input ">>> " 
+while
+while --help
+while 1
+mut x = 0
+while $x == 0 { input }
+while $x == 0 { input ">>> "}
+exit
+du
+cd .cache/

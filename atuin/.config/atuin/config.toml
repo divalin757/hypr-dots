@@ -1,6 +1,7 @@
 style = "compact"
 [theme]
 # name = "tokyo-night"
-name = "nord"
+# name = "nord"
 # name = "catppuccin-mocha-mauve"
+name = "vague"
 

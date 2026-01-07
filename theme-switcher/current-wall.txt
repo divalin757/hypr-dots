@@ -1,1 +1,13 @@
 ~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/nord/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds
+~/.config/theme-switcher/themes/tokyonight/backgrounds

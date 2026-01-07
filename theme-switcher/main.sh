@@ -2,7 +2,7 @@
 
 
 themes="
-nightfox\ncatppuccin\ntokyonight\nnord\nvague\n
+nightfox\ncatppuccin\ntokyonight\nnord\nvague\ngruvbox-dark
 "
 
 selected=$(echo -e $themes | rofi -dmenu -p "choose a theme")
@@ -13,8 +13,8 @@ get_help() {
 }
 
 switch_tmux() {
-  rm ~/.config/tmux.conf
-  mv ~/.config/theme-switcher/themes/$selected/tmux.conf
+  rm ~/.config/tmux/tmux.conf
+  cp -r ~/.config/theme-switcher/themes/$selected/tmux.conf ~/.config/tmux/tmux.conf
   tmux source-file ~/.config/tmux/tmux.conf
 }
 
@@ -183,6 +183,7 @@ elif [[ $selected == "tokyonight" ]]; then
   switch_rofi
   switch_hyprlock
   switch_nvim
+  switch_tmux
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/wallpaper21.jpg
   switch_gtk
   restart_gtk4_apps
@@ -212,9 +213,23 @@ elif [[ $selected == "vague" ]]; then
   switch_rofi
   switch_hyprlock
   switch_nvim
+  switch_tmux
   swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/3d-tech.jpg
   switch_kitty
   notify-send "Theme changed" "current theme $selected"
+
+elif [[ $selected == "gruvbox-dark" ]]; then
+  switch_waybar 
+  switch_swaync
+  switch_swayosd
+  switch_rofi
+  switch_hyprlock
+  switch_nvim
+  switch_tmux
+  swww img --transition-type center  --transition-angle 0 --transition-fps 60 --transition-duration 1.5 ~/.config/backgrounds/3d-tech.jpg
+  switch_kitty
+  notify-send "Theme changed" "current theme $selected"
+
 
 fi
 

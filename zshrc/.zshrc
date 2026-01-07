@@ -1,5 +1,6 @@
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
+source ~/.zsh_secrets
 export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'"
 export GEMINI_CLI_FLAGS='--no-telemetry-no-telemetry-log-prompts'
 
@@ -72,8 +73,9 @@ alias r='yay -Rns'
 # fetch
 alias mfetch=' mfetch  --os --kernel --shell --uptime --wm --colors'
 # waybar themes
-alias omwaybar='pkill waybar; waybar -c ~/.config/waybar/themes/omarchy-waybar/config.jsonc -s ~/.config/waybar/themes/omarchy-waybar/style.css & disown'
-alias tonybar='pkill waybar; waybar -c ~/.config/waybar/themes/tonybar/config.jsonc -s ~/.config/waybar/themes/tonybar/style.css & disown'
+alias nothingbar='pkill waybar; waybar -c ~/.config/waybar/themes/nothing/config.jsonc -s ~/.config/waybar/themes/nothing/style.css & disown'
+alias coolbar='pkill waybar; waybar -c ~/.config/waybar/themes/ericmurphy/config.jsonc -s ~/.config/waybar/themes/ericmurphy/style.css & disown'
+
 # atuin scripts
 alias asr='atuin scripts run'
 alias asn='atuin scripts new'
@@ -95,17 +97,29 @@ function cx() {
     cd "$1"
     ls
 }
+
+cdf() {
+   cd $(fd --type directory -H . /home/divalin | sed 's|^/home/divalin/||' | fzf --color="bw")
+}
+zle -N cdf
+bindkey '^[c' cdf
 #
 stty ixany
 
+# Source completions for my tool
 source ~/.local/bin/comps/todo-comp.sh
 
 export PATH="$HOME/.local/bin:$PATH"
-export FZF_DEFAULT_OPTS="--ansi --reverse"
+export FZF_DEFAULT_OPTS="--ansi"
 export EDITOR=nvim
 
+# Initialize Oh my posh
 eval "$(oh-my-posh init zsh --config $HOME/.config/omp.toml)"
 
-# cd $(fd --type directory -H . /home/divalin | sed 's|^/home/divalin/||' | fzf --color="bw")
+
+# Adding bun to path
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 
 
